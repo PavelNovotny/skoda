@@ -1,0 +1,122 @@
+{
+  "cars_index": {
+    "mappings": {
+      "cars": {
+        "dynamic": "strict",
+        "date_detection": false,
+        "properties": {
+          "auditDate": {
+            "type": "date",
+            "format": "dd.MM.yyyy HH:mm:ss"
+          },
+          "car_name": {
+            "type": "text",
+            "fields": {
+              "raw": {
+                "type": "keyword",
+                "normalizer": "keyword_normalizer"
+              },
+              "ngram": {
+                "type": "text",
+                "analyzer": "index_analyzer_ngram",
+                "search_analyzer": "search_analyzer_term",
+                "term_vector": "with_positions_offsets"
+              }
+            }
+          },
+          "car_model": {
+            "type": "text",
+            "fields": {
+              "raw": {
+                "type": "keyword",
+                "normalizer": "keyword_normalizer"
+              },
+              "ngram": {
+                "type": "text",
+                "analyzer": "index_analyzer_ngram",
+                "search_analyzer": "search_analyzer_term",
+                "term_vector": "with_positions_offsets"
+              }
+            }
+          },
+          "car_body_type": {
+            "type": "text",
+            "fields": {
+              "raw": {
+                "type": "keyword",
+                "normalizer": "keyword_normalizer"
+              },
+              "ngram": {
+                "type": "text",
+                "analyzer": "index_analyzer_ngram",
+                "search_analyzer": "search_analyzer_term",
+                "term_vector": "with_positions_offsets"
+              }
+            }
+          },
+          "car_color": {
+            "type": "text",
+            "fields": {
+              "raw": {
+                "type": "keyword",
+                "normalizer": "keyword_normalizer"
+              },
+              "ngram": {
+                "type": "text",
+                "analyzer": "index_analyzer_ngram",
+                "search_analyzer": "search_analyzer_term",
+                "term_vector": "with_positions_offsets"
+              }
+            }
+          },
+          "car_fuel": {
+            "type": "text",
+            "fields": {
+              "raw": {
+                "type": "keyword",
+                "normalizer": "keyword_normalizer"
+              },
+              "ngram": {
+                "type": "text",
+                "analyzer": "index_analyzer_ngram",
+                "search_analyzer": "search_analyzer_term",
+                "term_vector": "with_positions_offsets"
+              }
+            }
+          },
+          "car_transmission": {
+            "type": "text",
+            "fields": {
+              "raw": {
+                "type": "keyword",
+                "normalizer": "keyword_normalizer"
+              },
+              "ngram": {
+                "type": "text",
+                "analyzer": "index_analyzer_ngram",
+                "search_analyzer": "search_analyzer_term",
+                "term_vector": "with_positions_offsets"
+              }
+            }
+          },
+          "car_engine_power": {
+            "type": "text",
+            "fields": {
+              "raw": {
+                "type": "keyword",
+                "normalizer": "keyword_normalizer"
+              },
+              "ngram": {
+                "type": "text",
+                "analyzer": "index_analyzer_ngram",
+                "search_analyzer": "search_analyzer_term",
+                "term_vector": "with_positions_offsets"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

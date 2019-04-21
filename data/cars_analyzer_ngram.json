@@ -1,0 +1,136 @@
+{
+  "cars_index": {
+    "settings": {
+      "index": {
+        "number_of_shards": 5,
+        "analysis": {
+          "normalizer": {
+            "keyword_normalizer": {
+              "type": "custom",
+              "filter": [
+                "lowercase",
+                "icu_folding"
+              ]
+            }
+          },
+          "tokenizer": {
+            "ngram_tokenizer": {
+              "type": "ngram",
+              "min_gram": "3",
+              "max_gram": "20",
+              "token_chars": []
+            },
+            "ngram30_tokenizer": {
+              "type": "ngram",
+              "min_gram": "3",
+              "max_gram": "30",
+              "token_chars": []
+            }
+          },
+          "analyzer": {
+            "mail_index_analyzer": {
+              "type": "custom",
+              "tokenizer": "whitespace",
+              "filter": [
+                "lowercase",
+                "icu_folding",
+                "remove_duplicities"
+              ]
+            },
+            "autocomplete": {
+              "type": "custom",
+              "tokenizer": "standard",
+              "filter": [
+                "lowercase",
+                "icu_folding",
+                "remove_duplicities",
+                "autocomplete_filter"
+              ]
+            },
+            "default": {
+              "type": "custom",
+              "tokenizer": "standard",
+              "filter": [
+                "lowercase",
+                "icu_folding",
+                "remove_duplicities"
+              ]
+            },
+            "index_analyzer_ngram": {
+              "type": "custom",
+              "tokenizer": "ngram_tokenizer",
+              "filter": [
+                "lowercase",
+                "icu_folding"
+              ]
+            },
+            "index_analyzer30_ngram": {
+              "type": "custom",
+              "tokenizer": "ngram30_tokenizer",
+              "filter": [
+                "lowercase",
+                "icu_folding"
+              ]
+            },
+            "index_analyzer_company_ngram": {
+              "type": "custom",
+              "tokenizer": "ngram_tokenizer",
+              "filter": [
+                "lowercase",
+                "icu_folding",
+                "ignore_hyphen_dot_filter"
+              ]
+            },
+            "search_analyzer_term": {
+              "type": "custom",
+              "tokenizer": "keyword",
+              "filter": [
+                "lowercase",
+                "icu_folding",
+                "truncate_filter"
+              ]
+            },
+            "search_analyzer30_term": {
+              "type": "custom",
+              "tokenizer": "keyword",
+              "filter": [
+                "lowercase",
+                "icu_folding",
+                "truncate30_filter"
+              ]
+            }
+          },
+          "filter": {
+            "remove_duplicities": {
+              "type": "unique",
+              "only_on_same_position": false
+            },
+            "autocomplete_filter": {
+              "type": "ngram",
+              "min_gram": 3,
+              "max_gram": 20
+            },
+            "truncate_filter": {
+              "type": "truncate",
+              "length": 20
+            },
+            "truncate30_filter": {
+              "type": "truncate",
+              "length": 30
+            },
+            "ignore_hyphen_dot_filter": {
+              "split_on_numerics": "false",
+              "split_on_case_change": "false",
+              "type": "word_delimiter",
+              "type_table": [
+                "\u002C => ALPHANUM",
+                "\u002D => ALPHANUM"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,119 @@
+{
+  "size": "1000",
+  "from": "0",
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "bool": {
+            "should": [
+              {
+                "match_phrase_prefix": {
+                  "car_name.raw": {
+                    "query": "Op"
+                  }
+                }
+              },
+              {
+                "match_phrase_prefix": {
+                  "car_model.raw": {
+                    "query": "Op"
+                  }
+                }
+              },
+              {
+                "match_phrase_prefix": {
+                  "car_body_type.raw": {
+                    "query": "Op"
+                  }
+                }
+              },
+              {
+                "match_phrase_prefix": {
+                  "car_fuel.raw": {
+                    "query": "Op"
+                  }
+                }
+              },
+              {
+                "match_phrase_prefix": {
+                  "car_transmission.raw": {
+                    "query": "Op"
+                  }
+                }
+              },
+              {
+                "match_phrase_prefix": {
+                  "car_engine_power.raw": {
+                    "query": "Op"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "highlight": {
+    "pre_tags": [
+      "<b>"
+    ],
+    "post_tags": [
+      "</b>"
+    ],
+    "fields": {
+      "*": {
+        "number_of_fragments": 1,
+        "highlight_query": {
+          "bool": {
+            "must": [
+              {
+                "bool": {
+                  "should": [
+                    {
+                      "query_string": {
+                        "query": "Op",
+                        "fields": [
+                          "car_name.ngram",
+                          "car_model.ngram",
+                          "car_body_type.ngram",
+                          "car_fuel.ngram",
+                          "car_transmission.ngram",
+                          "car_engine_power.ngram"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "sort": [
+    {
+      "car_name.raw": {
+        "order": "asc"
+      }
+    },
+    {
+      "car_model.raw": {
+        "order": "asc"
+      }
+    },
+    {
+      "car_body_type.raw": {
+        "order": "asc"
+      }
+    },
+    {
+      "car_fuel.raw": {
+        "order": "asc"
+      }
+    },
+    "_score"
+  ]
+}
