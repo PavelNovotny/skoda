@@ -1,177 +1,62 @@
 {
-  "dynamic": "strict",
-  "properties": {
-
-    "residentialAddress": {
-      "type": "object",
-      "properties": {
-        "buildingNo": {
-          "type": "string"
-        },
-        "city": {
-          "type": "string"
-        },
-        "cityDistrict": {
-          "type": "string"
-        },
-        "countryCode": {
-          "type": "string"
-        },
-        "crossId": {
-          "type": "string"
-        },
-        "postalCode": {
-          "type": "string"
-        },
-        "street": {
-          "type": "string"
-        },
-        "streetNo": {
-          "type": "string"
-        },
-        "addressId" : {
-          "type" : "keyword"
+  "dealers_index": {
+    "mappings": {
+      "dealers": {
+        "dynamic": "strict",
+        "date_detection": false,
+        "properties": {
+          "auditDate": {
+            "type": "date",
+            "format": "dd.MM.yyyy HH:mm:ss"
+          },
+          "dealer_name": {
+            "type": "text",
+            "fields": {
+              "raw": {
+                "type": "keyword",
+                "normalizer": "keyword_normalizer"
+              },
+              "ngram": {
+                "type": "text",
+                "analyzer": "index_analyzer_ngram",
+                "search_analyzer": "search_analyzer_term",
+                "term_vector": "with_positions_offsets"
+              }
+            }
+          },
+          "dealer_city": {
+            "type": "text",
+            "fields": {
+              "raw": {
+                "type": "keyword",
+                "normalizer": "keyword_normalizer"
+              },
+              "ngram": {
+                "type": "text",
+                "analyzer": "index_analyzer_ngram",
+                "search_analyzer": "search_analyzer_term",
+                "term_vector": "with_positions_offsets"
+              }
+            }
+          },
+          "dealer_street": {
+            "type": "text",
+            "fields": {
+              "raw": {
+                "type": "keyword",
+                "normalizer": "keyword_normalizer"
+              },
+              "ngram": {
+                "type": "text",
+                "analyzer": "index_analyzer_ngram",
+                "search_analyzer": "search_analyzer_term",
+                "term_vector": "with_positions_offsets"
+              }
+            }
+          }
         }
       }
-    },
-
-    "frameContract": {
-      "type": "object",
-      "properties": {
-        "obligationRefNo": {
-          "type": "string"
-        }
-      }
-    },
-
-    /*    "email": {
-          "type": "string"
-        },*/
-
-    "auditDate": {
-      "type": "date",
-      "format": "dd.MM.yyyy HH:mm:ss"
-    },
-    "birthDate": {
-      "type": "date",
-      "format": "dd.MM.yyyy"
-    },
-    "birthDateString": {
-      "type": "string"
-    },
-    "birthNumber": {
-      "type": "text",
-      "fields": {
-        "raw": {
-          "type": "keyword",
-          "normalizer": "keyword_normalizer"
-        },
-        "ngram": {
-          "type": "text",
-          "analyzer": "index_analyzer_ngram",
-          "search_analyzer": "search_analyzer_term",
-          "term_vector":"with_positions_offsets"
-        }
-      }
-    },
-
-
-    "companyRegNo": {
-      "type": "text",
-      "fields": {
-        "raw": {
-          "type": "keyword",
-          "normalizer": "keyword_normalizer"
-        },
-        "ngram": {
-          "type": "text",
-          "analyzer": "index_analyzer_ngram",
-          "search_analyzer": "search_analyzer_term",
-          "term_vector":"with_positions_offsets"
-        }
-      }
-    },
-
-    "cuRefNo": {
-      "type": "string"
-    },
-
-    "customerType": {
-      "type": "string"
-    },
-
-    "identityDocumentId": {
-      "type": "string"
-    },
-    "sfaId": {
-      "type": "text",
-      "fields": {
-        "raw": {
-          "type": "keyword",
-          "normalizer": "keyword_normalizer"
-        },
-        "ngram": {
-          "type": "text",
-          "analyzer": "index_analyzer_ngram",
-          "search_analyzer": "search_analyzer_term",
-          "term_vector":"with_positions_offsets"
-        }
-      }
-    },
-    "taxRegNo": {
-      "type": "string"
-    },
-
-    "companyName": {
-      "type": "text",
-      "fields": {
-        "raw": {
-          "type": "keyword",
-          "normalizer": "keyword_normalizer"
-        },
-        "ngram": {
-          "type": "text",
-          "analyzer": "index_analyzer_company_ngram",
-          "search_analyzer": "search_analyzer_term",
-          "term_vector":"with_positions_offsets"
-        }
-      }
-    },
-    "firstName": {
-      "type": "text",
-      "fields": {
-        "raw": {
-          "type": "keyword",
-          "normalizer": "keyword_normalizer"
-        },
-        "ngram": {
-          "type": "text",
-          "analyzer": "index_analyzer_ngram",
-          "search_analyzer": "search_analyzer_term",
-          "term_vector":"with_positions_offsets"
-        }
-      }
-    },
-    "fullName": {
-      "type": "string"
-    },
-    "lastName": {
-      "type": "text",
-      "fields": {
-        "raw": {
-          "type": "keyword",
-          "normalizer": "keyword_normalizer"
-        },
-        "ngram": {
-          "type": "text",
-          "analyzer": "index_analyzer_ngram",
-          "search_analyzer": "search_analyzer_term",
-          "term_vector":"with_positions_offsets"
-        }
-      }
-    },
-    "segment": {
-      "type": "keyword"
     }
   }
 }
+
