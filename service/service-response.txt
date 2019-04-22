@@ -1,0 +1,1699 @@
+Výsledek 3 dotazů popsaných v service-request.txt složí service dohromady a pošle FE ve své response.
+
+{
+"result": [
+Object_response_cars,
+Object_response_dealers,
+Object_response_liferay
+]
+}
+
+Tj.:
+{
+  "result": [
+    {
+      "took": 22,
+      "timed_out": false,
+      "_shards": {
+        "total": 5,
+        "successful": 5,
+        "skipped": 0,
+        "failed": 0
+      },
+      "hits": {
+        "total": 204,
+        "max_score": 425.9551,
+        "hits": [
+          {
+            "_index": "cars_index",
+            "_type": "cars",
+            "_id": "87",
+            "_score": 425.9551,
+            "_source": {
+              "car_name": "ŠKODA",
+              "car_model": "Beta",
+              "car_body_type": "autobus",
+              "car_color": "fialová",
+              "car_fuel": "CNG",
+              "car_transmission": "DSG",
+              "car_engine_power": "85kW"
+            },
+            "highlight": {
+              "car_name.ngram": [
+                "<b>ŠKO</b>DA"
+              ]
+            }
+          },
+          {
+            "_index": "cars_index",
+            "_type": "cars",
+            "_id": "539",
+            "_score": 425.9551,
+            "_source": {
+              "car_name": "ŠKODA",
+              "car_model": "Favorit 135 Pick-Up",
+              "car_body_type": "offroad",
+              "car_color": "modrá",
+              "car_fuel": "nafta",
+              "car_transmission": "DSG",
+              "car_engine_power": "70kW"
+            },
+            "highlight": {
+              "car_name.ngram": [
+                "<b>ŠKO</b>DA"
+              ]
+            }
+          },
+          {
+            "_index": "cars_index",
+            "_type": "cars",
+            "_id": "704",
+            "_score": 425.9551,
+            "_source": {
+              "car_name": "ŠKODA",
+              "car_model": "100",
+              "car_body_type": "liftback",
+              "car_color": "žlutá",
+              "car_fuel": "CNG",
+              "car_transmission": "manuál",
+              "car_engine_power": "300kW"
+            },
+            "highlight": {
+              "car_name.ngram": [
+                "<b>ŠKO</b>DA"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "took": 21,
+      "timed_out": false,
+      "_shards": {
+        "total": 5,
+        "successful": 5,
+        "skipped": 0,
+        "failed": 0
+      },
+      "hits": {
+        "total": 138,
+        "max_score": 165.69402,
+        "hits": [
+          {
+            "_index": "dealers_index",
+            "_type": "dealers",
+            "_id": "28",
+            "_score": 165.69402,
+            "_source": {
+              "dealer_name": "Škoda 1",
+              "dealer_city": "Praha",
+              "dealer_street": ""
+            },
+            "highlight": {
+              "dealer_name.ngram": [
+                "<b>Ško</b>da 1"
+              ]
+            }
+          },
+          {
+            "_index": "dealers_index",
+            "_type": "dealers",
+            "_id": "39",
+            "_score": 165.69402,
+            "_source": {
+              "dealer_name": "Škoda 1",
+              "dealer_city": "Brno",
+              "dealer_street": "Mastná"
+            },
+            "highlight": {
+              "dealer_name.ngram": [
+                "<b>Ško</b>da 1"
+              ]
+            }
+          },
+          {
+            "_index": "dealers_index",
+            "_type": "dealers",
+            "_id": "46",
+            "_score": 165.69402,
+            "_source": {
+              "dealer_name": "Škoda 1",
+              "dealer_city": "Brno",
+              "dealer_street": "Úzká"
+            },
+            "highlight": {
+              "dealer_name.ngram": [
+                "<b>Ško</b>da 1"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "took": 101,
+      "timed_out": false,
+      "_shards": {
+        "total": 5,
+        "successful": 5,
+        "skipped": 0,
+        "failed": 0
+      },
+      "hits": {
+        "total": 22,
+        "max_score": 3.7219372,
+        "hits": [
+          {
+            "_index": "liferay-20099",
+            "_type": "LiferayDocumentType",
+            "_id": "com.liferay.asset.kernel.model.AssetVocabulary_PORTLET_263125",
+            "_score": 3.7219372,
+            "_source": {
+              "entryClassPK": "263125",
+              "name_sortable": "topic",
+              "title_cs_CZ": "Topic",
+              "entryClassName": "com.liferay.asset.kernel.model.AssetVocabulary",
+              "roleId": [
+                "20106",
+                "20107"
+              ],
+              "groupId": "20126",
+              "createDate_sortable": 1548241329608,
+              "userName": "",
+              "title": "Topic",
+              "userId": "20103",
+              "stagingGroup": "false",
+              "uid": "com.liferay.asset.kernel.model.AssetVocabulary_PORTLET_263125",
+              "companyId": "20099",
+              "scopeGroupId": "20126",
+              "assetVocabularyId": "263125",
+              "title_sortable": "topic",
+              "name": "Topic",
+              "modified": "20190123110209",
+              "modified_sortable": 1548241329608,
+              "title_en_US": "Topic",
+              "createDate": "20190123110209"
+            },
+            "highlight": {
+              "title_cs_CZ": [
+                "<b>Topic</b>"
+              ]
+            }
+          },
+          {
+            "_index": "liferay-20099",
+            "_type": "LiferayDocumentType",
+            "_id": "com.liferay.journal.model.JournalArticle_PORTLET_262694",
+            "_score": 1.9765936,
+            "_source": {
+              "ddmTemplateKey": "260375",
+              "entryClassPK": "262490",
+              "publishDate_sortable": 1552907460000,
+              "groupId": "20126",
+              "priority_sortable": 0,
+              "publishDate": "20190318111100",
+              "ddm__text__262079__content_cs_CZ_String_sortable": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260339/hp_filter.jpg/c15a0380-7ec9-7dc9-e9f4-31a4666c5790);\">\n\n    <div class=\"d-",
+              "classNameId": "0",
+              "createDate_sortable": 1552907497679,
+              "content": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260339/Hp_filter.jpg/c15a0380-7ec9-7dc9-e9f4-31a4666c5790);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "ddm__text__262079__content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260339/Hp_filter.jpg/c15a0380-7ec9-7dc9-e9f4-31a4666c5790);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "head": "false",
+              "uid": "com.liferay.journal.model.JournalArticle_PORTLET_262694",
+              "classPK": "0",
+              "groupRoleId": "20126-20114",
+              "scopeGroupId": "20126",
+              "articleId_String_sortable": "108203",
+              "layoutUuid": "",
+              "modified": "20190320125047",
+              "modified_sortable": 1553086247112,
+              "expirationDate_sortable": 9223372036854776000,
+              "createDate": "20190318111137",
+              "expirationDate": "99950812133000",
+              "latest": "false",
+              "displayDate_sortable": 1552907460000,
+              "visible": "true",
+              "title_cs_CZ": "HP - top banner",
+              "ddmStructureKey": "260371",
+              "entryClassName": "com.liferay.journal.model.JournalArticle",
+              "roleId": [
+                "20106",
+                "20107"
+              ],
+              "articleId": "108203",
+              "defaultLanguageId": "cs_CZ",
+              "userName": "test test",
+              "priority": "0.0",
+              "userId": "20139",
+              "version": "2.0",
+              "folderId": "262067",
+              "classTypeId": "262079",
+              "localized_title": "hp - top banner",
+              "localized_title_cs_CZ": "hp - top banner",
+              "localized_title_cs_CZ_sortable": "hp - top banner",
+              "localized_title_en_US": "hp - top banner",
+              "localized_title_en_US_sortable": "hp - top banner",
+              "stagingGroup": "false",
+              "companyId": "20099",
+              "headListable": "false",
+              "rootEntryClassPK": "262490",
+              "content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260339/Hp_filter.jpg/c15a0380-7ec9-7dc9-e9f4-31a4666c5790);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "displayDate": "20190318111100",
+              "treePath": [
+                "",
+                "262063",
+                "262067"
+              ],
+              "status": "0"
+            },
+            "highlight": {
+              "title_cs_CZ": [
+                "HP - <b>top</b> banner"
+              ]
+            }
+          },
+          {
+            "_index": "liferay-20099",
+            "_type": "LiferayDocumentType",
+            "_id": "com.liferay.journal.model.JournalArticle_PORTLET_262795",
+            "_score": 1.9765936,
+            "_source": {
+              "ddmTemplateKey": "260375",
+              "entryClassPK": "262490",
+              "publishDate_sortable": 1552907460000,
+              "groupId": "20126",
+              "priority_sortable": 0,
+              "publishDate": "20190318111100",
+              "ddm__text__262079__content_cs_CZ_String_sortable": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/hp_filter.jpg/b703fc79-a9b9-d198-bb22-1e397397f011);\">\n\n    <div class=\"d-",
+              "classNameId": "0",
+              "createDate_sortable": 1552907497679,
+              "content": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/HP_filter.jpg/b703fc79-a9b9-d198-bb22-1e397397f011);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "ddm__text__262079__content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/HP_filter.jpg/b703fc79-a9b9-d198-bb22-1e397397f011);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "head": "false",
+              "uid": "com.liferay.journal.model.JournalArticle_PORTLET_262795",
+              "classPK": "0",
+              "groupRoleId": "20126-20114",
+              "scopeGroupId": "20126",
+              "articleId_String_sortable": "108203",
+              "layoutUuid": "",
+              "modified": "20190329172800",
+              "modified_sortable": 1553880480635,
+              "expirationDate_sortable": 9223372036854776000,
+              "createDate": "20190318111137",
+              "expirationDate": "99950812133000",
+              "latest": "false",
+              "displayDate_sortable": 1552907460000,
+              "visible": "true",
+              "title_cs_CZ": "HP - top banner",
+              "ddmStructureKey": "260371",
+              "entryClassName": "com.liferay.journal.model.JournalArticle",
+              "roleId": [
+                "20106",
+                "20107"
+              ],
+              "articleId": "108203",
+              "defaultLanguageId": "cs_CZ",
+              "userName": "test test",
+              "priority": "0.0",
+              "userId": "20139",
+              "version": "2.4",
+              "folderId": "262067",
+              "classTypeId": "262079",
+              "localized_title": "hp - top banner",
+              "localized_title_cs_CZ": "hp - top banner",
+              "localized_title_cs_CZ_sortable": "hp - top banner",
+              "localized_title_en_US": "hp - top banner",
+              "localized_title_en_US_sortable": "hp - top banner",
+              "stagingGroup": "false",
+              "companyId": "20099",
+              "headListable": "false",
+              "rootEntryClassPK": "262490",
+              "content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/HP_filter.jpg/b703fc79-a9b9-d198-bb22-1e397397f011);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "displayDate": "20190318111100",
+              "treePath": [
+                "",
+                "262063",
+                "262067"
+              ],
+              "status": "0"
+            },
+            "highlight": {
+              "title_cs_CZ": [
+                "HP - <b>top</b> banner"
+              ]
+            }
+          },
+          {
+            "_index": "liferay-20099",
+            "_type": "LiferayDocumentType",
+            "_id": "com.liferay.journal.model.JournalArticle_PORTLET_262866",
+            "_score": 1.9765936,
+            "_source": {
+              "ddmTemplateKey": "260375",
+              "entryClassPK": "262490",
+              "publishDate_sortable": 1552907460000,
+              "groupId": "20126",
+              "priority_sortable": 0,
+              "publishDate": "20190318111100",
+              "ddm__text__262079__content_cs_CZ_String_sortable": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/262027/hp_filter.jpg/a25c17f5-6e21-7e26-245d-dcb096bdd837?t=1554200655296);\">",
+              "classNameId": "0",
+              "createDate_sortable": 1552907497679,
+              "content": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/262027/Hp_filter.jpg/a25c17f5-6e21-7e26-245d-dcb096bdd837?t=1554200655296);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-lg-block d-xl-none\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block d-lg-none\" style=\"height: 109px;\"></div>\n            <div class=\"row\">\n                <div class=\"col-12 col-md-7 col-lg-12\">\n                    <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na&nbsp;plusy</h2>\n                </div>\n            </div>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "ddm__text__262079__content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/262027/Hp_filter.jpg/a25c17f5-6e21-7e26-245d-dcb096bdd837?t=1554200655296);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-lg-block d-xl-none\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block d-lg-none\" style=\"height: 109px;\"></div>\n            <div class=\"row\">\n                <div class=\"col-12 col-md-7 col-lg-12\">\n                    <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na&nbsp;plusy</h2>\n                </div>\n            </div>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "head": "true",
+              "uid": "com.liferay.journal.model.JournalArticle_PORTLET_262866",
+              "classPK": "0",
+              "groupRoleId": "20126-20114",
+              "scopeGroupId": "20126",
+              "articleId_String_sortable": "108203",
+              "layoutUuid": "",
+              "modified": "20190402102510",
+              "modified_sortable": 1554200710560,
+              "expirationDate_sortable": 9223372036854776000,
+              "createDate": "20190318111137",
+              "expirationDate": "99950812133000",
+              "latest": "true",
+              "displayDate_sortable": 1552907460000,
+              "visible": "true",
+              "title_cs_CZ": "HP - top banner",
+              "ddmStructureKey": "260371",
+              "entryClassName": "com.liferay.journal.model.JournalArticle",
+              "roleId": [
+                "20106",
+                "20107"
+              ],
+              "articleId": "108203",
+              "defaultLanguageId": "cs_CZ",
+              "userName": "test test",
+              "priority": "0.0",
+              "userId": "20139",
+              "version": "3.0",
+              "folderId": "262067",
+              "classTypeId": "262079",
+              "localized_title": "hp - top banner",
+              "localized_title_cs_CZ": "hp - top banner",
+              "localized_title_cs_CZ_sortable": "hp - top banner",
+              "localized_title_en_US": "hp - top banner",
+              "localized_title_en_US_sortable": "hp - top banner",
+              "stagingGroup": "false",
+              "companyId": "20099",
+              "headListable": "true",
+              "rootEntryClassPK": "262490",
+              "content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/262027/Hp_filter.jpg/a25c17f5-6e21-7e26-245d-dcb096bdd837?t=1554200655296);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-lg-block d-xl-none\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block d-lg-none\" style=\"height: 109px;\"></div>\n            <div class=\"row\">\n                <div class=\"col-12 col-md-7 col-lg-12\">\n                    <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na&nbsp;plusy</h2>\n                </div>\n            </div>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "displayDate": "20190318111100",
+              "treePath": [
+                "",
+                "262063",
+                "262067"
+              ],
+              "status": "0"
+            },
+            "highlight": {
+              "title_cs_CZ": [
+                "HP - <b>top</b> banner"
+              ]
+            }
+          },
+          {
+            "_index": "liferay-20099",
+            "_type": "LiferayDocumentType",
+            "_id": "com.liferay.journal.model.JournalArticle_PORTLET_262511",
+            "_score": 1.6764911,
+            "_source": {
+              "ddmTemplateKey": "260375",
+              "entryClassPK": "262490",
+              "publishDate_sortable": 1552907460000,
+              "groupId": "20126",
+              "priority_sortable": 0,
+              "publishDate": "20190318111100",
+              "ddm__text__262079__content_cs_CZ_String_sortable": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <div class=\"d-none d-md-block\" style=\"height: 108px;\"></div>\n    <h2 class=\"saps-h2 saps-color-white\">měníme",
+              "classNameId": "0",
+              "createDate_sortable": 1552907497679,
+              "content": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <div class=\"d-none d-md-block\" style=\"height: 108px;\"></div>\n    <h2 class=\"saps-h2 saps-color-white\">Měníme minusy ojetých vozů na plusy</h2>\n</div>",
+              "ddm__text__262079__content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <div class=\"d-none d-md-block\" style=\"height: 108px;\"></div>\n    <h2 class=\"saps-h2 saps-color-white\">Měníme minusy ojetých vozů na plusy</h2>\n</div>",
+              "head": "false",
+              "uid": "com.liferay.journal.model.JournalArticle_PORTLET_262511",
+              "classPK": "0",
+              "groupRoleId": "20126-20114",
+              "scopeGroupId": "20126",
+              "articleId_String_sortable": "108203",
+              "layoutUuid": "",
+              "modified": "20190318131602",
+              "modified_sortable": 1552914962057,
+              "expirationDate_sortable": 9223372036854776000,
+              "createDate": "20190318111137",
+              "expirationDate": "99950812133000",
+              "latest": "false",
+              "displayDate_sortable": 1552907460000,
+              "visible": "true",
+              "title_cs_CZ": "HP - top banner",
+              "ddmStructureKey": "260371",
+              "entryClassName": "com.liferay.journal.model.JournalArticle",
+              "roleId": [
+                "20106",
+                "20107"
+              ],
+              "articleId": "108203",
+              "defaultLanguageId": "cs_CZ",
+              "userName": "test test",
+              "priority": "0.0",
+              "userId": "20139",
+              "version": "1.3",
+              "folderId": "262067",
+              "classTypeId": "262079",
+              "localized_title": "hp - top banner",
+              "localized_title_cs_CZ": "hp - top banner",
+              "localized_title_cs_CZ_sortable": "hp - top banner",
+              "localized_title_en_US": "hp - top banner",
+              "localized_title_en_US_sortable": "hp - top banner",
+              "stagingGroup": "false",
+              "companyId": "20099",
+              "headListable": "false",
+              "rootEntryClassPK": "262490",
+              "content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <div class=\"d-none d-md-block\" style=\"height: 108px;\"></div>\n    <h2 class=\"saps-h2 saps-color-white\">Měníme minusy ojetých vozů na plusy</h2>\n</div>",
+              "displayDate": "20190318111100",
+              "treePath": [
+                "",
+                "262063",
+                "262067"
+              ],
+              "status": "0"
+            },
+            "highlight": {
+              "title_cs_CZ": [
+                "HP - <b>top</b> banner"
+              ]
+            }
+          },
+          {
+            "_index": "liferay-20099",
+            "_type": "LiferayDocumentType",
+            "_id": "com.liferay.journal.model.JournalArticle_PORTLET_262517",
+            "_score": 1.6764911,
+            "_source": {
+              "ddmTemplateKey": "260375",
+              "entryClassPK": "262490",
+              "publishDate_sortable": 1552907460000,
+              "groupId": "20126",
+              "priority_sortable": 0,
+              "publishDate": "20190318111100",
+              "ddm__text__262079__content_cs_CZ_String_sortable": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div c",
+              "classNameId": "0",
+              "createDate_sortable": 1552907497679,
+              "content": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "ddm__text__262079__content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "head": "false",
+              "uid": "com.liferay.journal.model.JournalArticle_PORTLET_262517",
+              "classPK": "0",
+              "groupRoleId": "20126-20114",
+              "scopeGroupId": "20126",
+              "articleId_String_sortable": "108203",
+              "layoutUuid": "",
+              "modified": "20190318151404",
+              "modified_sortable": 1552922044129,
+              "expirationDate_sortable": 9223372036854776000,
+              "createDate": "20190318111137",
+              "expirationDate": "99950812133000",
+              "latest": "false",
+              "displayDate_sortable": 1552907460000,
+              "visible": "true",
+              "title_cs_CZ": "HP - top banner",
+              "ddmStructureKey": "260371",
+              "entryClassName": "com.liferay.journal.model.JournalArticle",
+              "roleId": [
+                "20106",
+                "20107"
+              ],
+              "articleId": "108203",
+              "defaultLanguageId": "cs_CZ",
+              "userName": "test test",
+              "priority": "0.0",
+              "userId": "20139",
+              "version": "1.4",
+              "folderId": "262067",
+              "classTypeId": "262079",
+              "localized_title": "hp - top banner",
+              "localized_title_cs_CZ": "hp - top banner",
+              "localized_title_cs_CZ_sortable": "hp - top banner",
+              "localized_title_en_US": "hp - top banner",
+              "localized_title_en_US_sortable": "hp - top banner",
+              "stagingGroup": "false",
+              "companyId": "20099",
+              "headListable": "false",
+              "rootEntryClassPK": "262490",
+              "content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "displayDate": "20190318111100",
+              "treePath": [
+                "",
+                "262063",
+                "262067"
+              ],
+              "status": "0"
+            },
+            "highlight": {
+              "title_cs_CZ": [
+                "HP - <b>top</b> banner"
+              ]
+            }
+          },
+          {
+            "_index": "liferay-20099",
+            "_type": "LiferayDocumentType",
+            "_id": "com.liferay.journal.model.JournalArticle_PORTLET_262529",
+            "_score": 1.6764911,
+            "_source": {
+              "ddmTemplateKey": "260375",
+              "entryClassPK": "262490",
+              "publishDate_sortable": 1552907460000,
+              "groupId": "20126",
+              "priority_sortable": 0,
+              "publishDate": "20190318111100",
+              "ddm__text__262079__content_cs_CZ_String_sortable": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div",
+              "classNameId": "0",
+              "createDate_sortable": 1552907497679,
+              "content": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "ddm__text__262079__content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "head": "false",
+              "uid": "com.liferay.journal.model.JournalArticle_PORTLET_262529",
+              "classPK": "0",
+              "groupRoleId": "20126-20114",
+              "scopeGroupId": "20126",
+              "articleId_String_sortable": "108203",
+              "layoutUuid": "",
+              "modified": "20190318155752",
+              "modified_sortable": 1552924672466,
+              "expirationDate_sortable": 9223372036854776000,
+              "createDate": "20190318111137",
+              "expirationDate": "99950812133000",
+              "latest": "false",
+              "displayDate_sortable": 1552907460000,
+              "visible": "true",
+              "title_cs_CZ": "HP - top banner",
+              "ddmStructureKey": "260371",
+              "entryClassName": "com.liferay.journal.model.JournalArticle",
+              "roleId": [
+                "20106",
+                "20107"
+              ],
+              "articleId": "108203",
+              "defaultLanguageId": "cs_CZ",
+              "userName": "test test",
+              "priority": "0.0",
+              "userId": "20139",
+              "version": "1.6",
+              "folderId": "262067",
+              "classTypeId": "262079",
+              "localized_title": "hp - top banner",
+              "localized_title_cs_CZ": "hp - top banner",
+              "localized_title_cs_CZ_sortable": "hp - top banner",
+              "localized_title_en_US": "hp - top banner",
+              "localized_title_en_US_sortable": "hp - top banner",
+              "stagingGroup": "false",
+              "companyId": "20099",
+              "headListable": "false",
+              "rootEntryClassPK": "262490",
+              "content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "displayDate": "20190318111100",
+              "treePath": [
+                "",
+                "262063",
+                "262067"
+              ],
+              "status": "0"
+            },
+            "highlight": {
+              "title_cs_CZ": [
+                "HP - <b>top</b> banner"
+              ]
+            }
+          },
+          {
+            "_index": "liferay-20099",
+            "_type": "LiferayDocumentType",
+            "_id": "com.liferay.journal.model.JournalArticle_PORTLET_262547",
+            "_score": 1.6764911,
+            "_source": {
+              "ddmTemplateKey": "260375",
+              "entryClassPK": "262490",
+              "publishDate_sortable": 1552907460000,
+              "groupId": "20126",
+              "priority_sortable": 0,
+              "publishDate": "20190318111100",
+              "ddm__text__262079__content_cs_CZ_String_sortable": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div clas",
+              "classNameId": "0",
+              "createDate_sortable": 1552907497679,
+              "content": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "ddm__text__262079__content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "head": "false",
+              "uid": "com.liferay.journal.model.JournalArticle_PORTLET_262547",
+              "classPK": "0",
+              "groupRoleId": "20126-20114",
+              "scopeGroupId": "20126",
+              "articleId_String_sortable": "108203",
+              "layoutUuid": "",
+              "modified": "20190319082351",
+              "modified_sortable": 1552983831361,
+              "expirationDate_sortable": 9223372036854776000,
+              "createDate": "20190318111137",
+              "expirationDate": "99950812133000",
+              "latest": "false",
+              "displayDate_sortable": 1552907460000,
+              "visible": "true",
+              "title_cs_CZ": "HP - top banner",
+              "ddmStructureKey": "260371",
+              "entryClassName": "com.liferay.journal.model.JournalArticle",
+              "roleId": [
+                "20106",
+                "20107"
+              ],
+              "articleId": "108203",
+              "defaultLanguageId": "cs_CZ",
+              "userName": "test test",
+              "priority": "0.0",
+              "userId": "20139",
+              "version": "1.9",
+              "folderId": "262067",
+              "classTypeId": "262079",
+              "localized_title": "hp - top banner",
+              "localized_title_cs_CZ": "hp - top banner",
+              "localized_title_cs_CZ_sortable": "hp - top banner",
+              "localized_title_en_US": "hp - top banner",
+              "localized_title_en_US_sortable": "hp - top banner",
+              "stagingGroup": "false",
+              "companyId": "20099",
+              "headListable": "false",
+              "rootEntryClassPK": "262490",
+              "content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "displayDate": "20190318111100",
+              "treePath": [
+                "",
+                "262063",
+                "262067"
+              ],
+              "status": "0"
+            },
+            "highlight": {
+              "title_cs_CZ": [
+                "HP - <b>top</b> banner"
+              ]
+            }
+          },
+          {
+            "_index": "liferay-20099",
+            "_type": "LiferayDocumentType",
+            "_id": "com.liferay.journal.model.JournalArticle_PORTLET_262700",
+            "_score": 1.6764911,
+            "_source": {
+              "ddmTemplateKey": "260375",
+              "entryClassPK": "262490",
+              "publishDate_sortable": 1552907460000,
+              "groupId": "20126",
+              "priority_sortable": 0,
+              "publishDate": "20190318111100",
+              "ddm__text__262079__content_cs_CZ_String_sortable": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260339/hp_filter.jpg/f8d86b41-c39f-d431-9d38-3584e9d9b5ef);\">\n\n    <div class=\"d-",
+              "classNameId": "0",
+              "createDate_sortable": 1552907497679,
+              "content": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260339/Hp_filter.jpg/f8d86b41-c39f-d431-9d38-3584e9d9b5ef);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "ddm__text__262079__content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260339/Hp_filter.jpg/f8d86b41-c39f-d431-9d38-3584e9d9b5ef);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "head": "false",
+              "uid": "com.liferay.journal.model.JournalArticle_PORTLET_262700",
+              "classPK": "0",
+              "groupRoleId": "20126-20114",
+              "scopeGroupId": "20126",
+              "articleId_String_sortable": "108203",
+              "layoutUuid": "",
+              "modified": "20190320135618",
+              "modified_sortable": 1553090178294,
+              "expirationDate_sortable": 9223372036854776000,
+              "createDate": "20190318111137",
+              "expirationDate": "99950812133000",
+              "latest": "false",
+              "displayDate_sortable": 1552907460000,
+              "visible": "true",
+              "title_cs_CZ": "HP - top banner",
+              "ddmStructureKey": "260371",
+              "entryClassName": "com.liferay.journal.model.JournalArticle",
+              "roleId": [
+                "20106",
+                "20107"
+              ],
+              "articleId": "108203",
+              "defaultLanguageId": "cs_CZ",
+              "userName": "test test",
+              "priority": "0.0",
+              "userId": "20139",
+              "version": "2.1",
+              "folderId": "262067",
+              "classTypeId": "262079",
+              "localized_title": "hp - top banner",
+              "localized_title_cs_CZ": "hp - top banner",
+              "localized_title_cs_CZ_sortable": "hp - top banner",
+              "localized_title_en_US": "hp - top banner",
+              "localized_title_en_US_sortable": "hp - top banner",
+              "stagingGroup": "false",
+              "companyId": "20099",
+              "headListable": "false",
+              "rootEntryClassPK": "262490",
+              "content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260339/Hp_filter.jpg/f8d86b41-c39f-d431-9d38-3584e9d9b5ef);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "displayDate": "20190318111100",
+              "treePath": [
+                "",
+                "262063",
+                "262067"
+              ],
+              "status": "0"
+            },
+            "highlight": {
+              "title_cs_CZ": [
+                "HP - <b>top</b> banner"
+              ]
+            }
+          },
+          {
+            "_index": "liferay-20099",
+            "_type": "LiferayDocumentType",
+            "_id": "com.liferay.journal.model.JournalArticle_PORTLET_262713",
+            "_score": 1.6764911,
+            "_source": {
+              "ddmTemplateKey": "260375",
+              "entryClassPK": "262490",
+              "publishDate_sortable": 1552907460000,
+              "groupId": "20126",
+              "priority_sortable": 0,
+              "publishDate": "20190318111100",
+              "ddm__text__262079__content_cs_CZ_String_sortable": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/hp_filter.jpg/a1fd9b01-ec9a-b6c5-8c2b-14d63f47ff59);\">\n\n    <div class=\"d-",
+              "classNameId": "0",
+              "createDate_sortable": 1552907497679,
+              "content": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/Hp_filter.jpg/a1fd9b01-ec9a-b6c5-8c2b-14d63f47ff59);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "ddm__text__262079__content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/Hp_filter.jpg/a1fd9b01-ec9a-b6c5-8c2b-14d63f47ff59);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "head": "false",
+              "uid": "com.liferay.journal.model.JournalArticle_PORTLET_262713",
+              "classPK": "0",
+              "groupRoleId": "20126-20114",
+              "scopeGroupId": "20126",
+              "articleId_String_sortable": "108203",
+              "layoutUuid": "",
+              "modified": "20190321041701",
+              "modified_sortable": 1553141821970,
+              "expirationDate_sortable": 9223372036854776000,
+              "createDate": "20190318111137",
+              "expirationDate": "99950812133000",
+              "latest": "false",
+              "displayDate_sortable": 1552907460000,
+              "visible": "true",
+              "title_cs_CZ": "HP - top banner",
+              "ddmStructureKey": "260371",
+              "entryClassName": "com.liferay.journal.model.JournalArticle",
+              "roleId": [
+                "20106",
+                "20107"
+              ],
+              "articleId": "108203",
+              "defaultLanguageId": "cs_CZ",
+              "userName": "test test",
+              "priority": "0.0",
+              "userId": "20139",
+              "version": "2.2",
+              "folderId": "262067",
+              "classTypeId": "262079",
+              "localized_title": "hp - top banner",
+              "localized_title_cs_CZ": "hp - top banner",
+              "localized_title_cs_CZ_sortable": "hp - top banner",
+              "localized_title_en_US": "hp - top banner",
+              "localized_title_en_US_sortable": "hp - top banner",
+              "stagingGroup": "false",
+              "companyId": "20099",
+              "headListable": "false",
+              "rootEntryClassPK": "262490",
+              "content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/Hp_filter.jpg/a1fd9b01-ec9a-b6c5-8c2b-14d63f47ff59);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "displayDate": "20190318111100",
+              "treePath": [
+                "",
+                "262063",
+                "262067"
+              ],
+              "status": "0"
+            },
+            "highlight": {
+              "title_cs_CZ": [
+                "HP - <b>top</b> banner"
+              ]
+            }
+          },
+          {
+            "_index": "liferay-20099",
+            "_type": "LiferayDocumentType",
+            "_id": "com.liferay.journal.model.JournalArticle_PORTLET_262541",
+            "_score": 1.4450488,
+            "_source": {
+              "ddmTemplateKey": "260375",
+              "entryClassPK": "262490",
+              "publishDate_sortable": 1552907460000,
+              "groupId": "20126",
+              "priority_sortable": 0,
+              "publishDate": "20190318111100",
+              "ddm__text__262079__content_cs_CZ_String_sortable": "<div class=\"saps-hp-banner-wrapper saps-h100\"\n    style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100 saps-claim-box saps-claim-box--top-banner\">\n        <div clas",
+              "classNameId": "0",
+              "createDate_sortable": 1552907497679,
+              "content": "<div class=\"saps-hp-banner-wrapper saps-h100\"\n    style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100 saps-claim-box saps-claim-box--top-banner\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "ddm__text__262079__content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100\"\n    style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100 saps-claim-box saps-claim-box--top-banner\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "head": "false",
+              "uid": "com.liferay.journal.model.JournalArticle_PORTLET_262541",
+              "classPK": "0",
+              "groupRoleId": "20126-20114",
+              "scopeGroupId": "20126",
+              "articleId_String_sortable": "108203",
+              "layoutUuid": "",
+              "modified": "20190318162117",
+              "modified_sortable": 1552926077414,
+              "expirationDate_sortable": 9223372036854776000,
+              "createDate": "20190318111137",
+              "expirationDate": "99950812133000",
+              "latest": "false",
+              "displayDate_sortable": 1552907460000,
+              "visible": "true",
+              "title_cs_CZ": "HP - top banner",
+              "ddmStructureKey": "260371",
+              "entryClassName": "com.liferay.journal.model.JournalArticle",
+              "roleId": [
+                "20106",
+                "20107"
+              ],
+              "articleId": "108203",
+              "defaultLanguageId": "cs_CZ",
+              "userName": "test test",
+              "priority": "0.0",
+              "userId": "20139",
+              "version": "1.8",
+              "folderId": "262067",
+              "classTypeId": "262079",
+              "localized_title": "hp - top banner",
+              "localized_title_cs_CZ": "hp - top banner",
+              "localized_title_cs_CZ_sortable": "hp - top banner",
+              "localized_title_en_US": "hp - top banner",
+              "localized_title_en_US_sortable": "hp - top banner",
+              "stagingGroup": "false",
+              "companyId": "20099",
+              "headListable": "false",
+              "rootEntryClassPK": "262490",
+              "content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100\"\n    style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100 saps-claim-box saps-claim-box--top-banner\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "displayDate": "20190318111100",
+              "treePath": [
+                "",
+                "262063",
+                "262067"
+              ],
+              "status": "0"
+            },
+            "highlight": {
+              "title_cs_CZ": [
+                "HP - <b>top</b> banner"
+              ]
+            }
+          },
+          {
+            "_index": "liferay-20099",
+            "_type": "LiferayDocumentType",
+            "_id": "com.liferay.journal.model.JournalArticle_PORTLET_262740",
+            "_score": 1.4450488,
+            "_source": {
+              "ddmTemplateKey": "260375",
+              "entryClassPK": "262490",
+              "publishDate_sortable": 1552907460000,
+              "groupId": "20126",
+              "priority_sortable": 0,
+              "publishDate": "20190318111100",
+              "ddm__text__262079__content_cs_CZ_String_sortable": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/hp_filter.jpg/44556478-3740-d146-daf9-6ac1612d7831);\">\n\n    <div class=\"d-",
+              "classNameId": "0",
+              "createDate_sortable": 1552907497679,
+              "content": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/HP_filter.jpg/44556478-3740-d146-daf9-6ac1612d7831);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "ddm__text__262079__content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/HP_filter.jpg/44556478-3740-d146-daf9-6ac1612d7831);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "head": "false",
+              "uid": "com.liferay.journal.model.JournalArticle_PORTLET_262740",
+              "classPK": "0",
+              "groupRoleId": "20126-20114",
+              "scopeGroupId": "20126",
+              "articleId_String_sortable": "108203",
+              "layoutUuid": "",
+              "modified": "20190328124701",
+              "modified_sortable": 1553777221689,
+              "expirationDate_sortable": 9223372036854776000,
+              "createDate": "20190318111137",
+              "expirationDate": "99950812133000",
+              "latest": "false",
+              "displayDate_sortable": 1552907460000,
+              "visible": "true",
+              "title_cs_CZ": "HP - top banner",
+              "ddmStructureKey": "260371",
+              "entryClassName": "com.liferay.journal.model.JournalArticle",
+              "roleId": [
+                "20106",
+                "20107"
+              ],
+              "articleId": "108203",
+              "defaultLanguageId": "cs_CZ",
+              "userName": "test test",
+              "priority": "0.0",
+              "userId": "20139",
+              "version": "2.3",
+              "folderId": "262067",
+              "classTypeId": "262079",
+              "localized_title": "hp - top banner",
+              "localized_title_cs_CZ": "hp - top banner",
+              "localized_title_cs_CZ_sortable": "hp - top banner",
+              "localized_title_en_US": "hp - top banner",
+              "localized_title_en_US_sortable": "hp - top banner",
+              "stagingGroup": "false",
+              "companyId": "20099",
+              "headListable": "false",
+              "rootEntryClassPK": "262490",
+              "content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/HP_filter.jpg/44556478-3740-d146-daf9-6ac1612d7831);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "displayDate": "20190318111100",
+              "treePath": [
+                "",
+                "262063",
+                "262067"
+              ],
+              "status": "0"
+            },
+            "highlight": {
+              "title_cs_CZ": [
+                "HP - <b>top</b> banner"
+              ]
+            }
+          },
+          {
+            "_index": "liferay-20099",
+            "_type": "LiferayDocumentType",
+            "_id": "com.liferay.journal.model.JournalArticle_PORTLET_262801",
+            "_score": 1.4450488,
+            "_source": {
+              "ddmTemplateKey": "260375",
+              "entryClassPK": "262490",
+              "publishDate_sortable": 1552907460000,
+              "groupId": "20126",
+              "priority_sortable": 0,
+              "publishDate": "20190318111100",
+              "ddm__text__262079__content_cs_CZ_String_sortable": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/hp_filter.jpg/3f1dac69-6903-a88d-0e8b-7009d1f7df9d);\">\n\n    <div class=\"d-",
+              "classNameId": "0",
+              "createDate_sortable": 1552907497679,
+              "content": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/Hp_filter.jpg/3f1dac69-6903-a88d-0e8b-7009d1f7df9d);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "ddm__text__262079__content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/Hp_filter.jpg/3f1dac69-6903-a88d-0e8b-7009d1f7df9d);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "head": "false",
+              "uid": "com.liferay.journal.model.JournalArticle_PORTLET_262801",
+              "classPK": "0",
+              "groupRoleId": "20126-20114",
+              "scopeGroupId": "20126",
+              "articleId_String_sortable": "108203",
+              "layoutUuid": "",
+              "modified": "20190401103843",
+              "modified_sortable": 1554115123370,
+              "expirationDate_sortable": 9223372036854776000,
+              "createDate": "20190318111137",
+              "expirationDate": "99950812133000",
+              "latest": "false",
+              "displayDate_sortable": 1552907460000,
+              "visible": "true",
+              "title_cs_CZ": "HP - top banner",
+              "ddmStructureKey": "260371",
+              "entryClassName": "com.liferay.journal.model.JournalArticle",
+              "roleId": [
+                "20106",
+                "20107"
+              ],
+              "articleId": "108203",
+              "defaultLanguageId": "cs_CZ",
+              "userName": "test test",
+              "priority": "0.0",
+              "userId": "20139",
+              "version": "2.5",
+              "folderId": "262067",
+              "classTypeId": "262079",
+              "localized_title": "hp - top banner",
+              "localized_title_cs_CZ": "hp - top banner",
+              "localized_title_cs_CZ_sortable": "hp - top banner",
+              "localized_title_en_US": "hp - top banner",
+              "localized_title_en_US_sortable": "hp - top banner",
+              "stagingGroup": "false",
+              "companyId": "20099",
+              "headListable": "false",
+              "rootEntryClassPK": "262490",
+              "content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/Hp_filter.jpg/3f1dac69-6903-a88d-0e8b-7009d1f7df9d);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "displayDate": "20190318111100",
+              "treePath": [
+                "",
+                "262063",
+                "262067"
+              ],
+              "status": "0"
+            },
+            "highlight": {
+              "title_cs_CZ": [
+                "HP - <b>top</b> banner"
+              ]
+            }
+          },
+          {
+            "_index": "liferay-20099",
+            "_type": "LiferayDocumentType",
+            "_id": "com.liferay.journal.model.JournalArticle_PORTLET_262827",
+            "_score": 1.4450488,
+            "_source": {
+              "ddmTemplateKey": "260375",
+              "entryClassPK": "262490",
+              "publishDate_sortable": 1552907460000,
+              "groupId": "20126",
+              "priority_sortable": 0,
+              "publishDate": "20190318111100",
+              "ddm__text__262079__content_cs_CZ_String_sortable": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/hp_filter.jpg/3f1dac69-6903-a88d-0e8b-7009d1f7df9d);\">\n\n    <div class=\"d-",
+              "classNameId": "0",
+              "createDate_sortable": 1552907497679,
+              "content": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/Hp_filter.jpg/3f1dac69-6903-a88d-0e8b-7009d1f7df9d);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-lg-block d-xl-none\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block d-lg-none\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "ddm__text__262079__content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/Hp_filter.jpg/3f1dac69-6903-a88d-0e8b-7009d1f7df9d);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-lg-block d-xl-none\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block d-lg-none\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "head": "false",
+              "uid": "com.liferay.journal.model.JournalArticle_PORTLET_262827",
+              "classPK": "0",
+              "groupRoleId": "20126-20114",
+              "scopeGroupId": "20126",
+              "articleId_String_sortable": "108203",
+              "layoutUuid": "",
+              "modified": "20190401165334",
+              "modified_sortable": 1554137614099,
+              "expirationDate_sortable": 9223372036854776000,
+              "createDate": "20190318111137",
+              "expirationDate": "99950812133000",
+              "latest": "false",
+              "displayDate_sortable": 1552907460000,
+              "visible": "true",
+              "title_cs_CZ": "HP - top banner",
+              "ddmStructureKey": "260371",
+              "entryClassName": "com.liferay.journal.model.JournalArticle",
+              "roleId": [
+                "20106",
+                "20107"
+              ],
+              "articleId": "108203",
+              "defaultLanguageId": "cs_CZ",
+              "userName": "test test",
+              "priority": "0.0",
+              "userId": "20139",
+              "version": "2.7",
+              "folderId": "262067",
+              "classTypeId": "262079",
+              "localized_title": "hp - top banner",
+              "localized_title_cs_CZ": "hp - top banner",
+              "localized_title_cs_CZ_sortable": "hp - top banner",
+              "localized_title_en_US": "hp - top banner",
+              "localized_title_en_US_sortable": "hp - top banner",
+              "stagingGroup": "false",
+              "companyId": "20099",
+              "headListable": "false",
+              "rootEntryClassPK": "262490",
+              "content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/Hp_filter.jpg/3f1dac69-6903-a88d-0e8b-7009d1f7df9d);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-lg-block d-xl-none\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block d-lg-none\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "displayDate": "20190318111100",
+              "treePath": [
+                "",
+                "262063",
+                "262067"
+              ],
+              "status": "0"
+            },
+            "highlight": {
+              "title_cs_CZ": [
+                "HP - <b>top</b> banner"
+              ]
+            }
+          },
+          {
+            "_index": "liferay-20099",
+            "_type": "LiferayDocumentType",
+            "_id": "com.liferay.journal.model.JournalArticle_PORTLET_262839",
+            "_score": 1.4450488,
+            "_source": {
+              "ddmTemplateKey": "260375",
+              "entryClassPK": "262490",
+              "publishDate_sortable": 1552907460000,
+              "groupId": "20126",
+              "priority_sortable": 0,
+              "publishDate": "20190318111100",
+              "ddm__text__262079__content_cs_CZ_String_sortable": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/hp_filter.jpg/3f1dac69-6903-a88d-0e8b-7009d1f7df9d);\">\n\n    <div class=\"d-",
+              "classNameId": "0",
+              "createDate_sortable": 1552907497679,
+              "content": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/Hp_filter.jpg/3f1dac69-6903-a88d-0e8b-7009d1f7df9d);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-lg-block d-xl-none\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block d-lg-none\" style=\"height: 109px;\"></div>\n            <div class=\"row\">\n                <div class=\"col-12 col-md-7 col-lg-12\">\n                    <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na&nbsp;plusy</h2>\n                </div>\n            </div>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "ddm__text__262079__content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/Hp_filter.jpg/3f1dac69-6903-a88d-0e8b-7009d1f7df9d);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-lg-block d-xl-none\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block d-lg-none\" style=\"height: 109px;\"></div>\n            <div class=\"row\">\n                <div class=\"col-12 col-md-7 col-lg-12\">\n                    <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na&nbsp;plusy</h2>\n                </div>\n            </div>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "head": "false",
+              "uid": "com.liferay.journal.model.JournalArticle_PORTLET_262839",
+              "classPK": "0",
+              "groupRoleId": "20126-20114",
+              "scopeGroupId": "20126",
+              "articleId_String_sortable": "108203",
+              "layoutUuid": "",
+              "modified": "20190401173029",
+              "modified_sortable": 1554139829482,
+              "expirationDate_sortable": 9223372036854776000,
+              "createDate": "20190318111137",
+              "expirationDate": "99950812133000",
+              "latest": "false",
+              "displayDate_sortable": 1552907460000,
+              "visible": "true",
+              "title_cs_CZ": "HP - top banner",
+              "ddmStructureKey": "260371",
+              "entryClassName": "com.liferay.journal.model.JournalArticle",
+              "roleId": [
+                "20106",
+                "20107"
+              ],
+              "articleId": "108203",
+              "defaultLanguageId": "cs_CZ",
+              "userName": "test test",
+              "priority": "0.0",
+              "userId": "20139",
+              "version": "2.9",
+              "folderId": "262067",
+              "classTypeId": "262079",
+              "localized_title": "hp - top banner",
+              "localized_title_cs_CZ": "hp - top banner",
+              "localized_title_cs_CZ_sortable": "hp - top banner",
+              "localized_title_en_US": "hp - top banner",
+              "localized_title_en_US_sortable": "hp - top banner",
+              "stagingGroup": "false",
+              "companyId": "20099",
+              "headListable": "false",
+              "rootEntryClassPK": "262490",
+              "content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/Hp_filter.jpg/3f1dac69-6903-a88d-0e8b-7009d1f7df9d);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-lg-block d-xl-none\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block d-lg-none\" style=\"height: 109px;\"></div>\n            <div class=\"row\">\n                <div class=\"col-12 col-md-7 col-lg-12\">\n                    <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na&nbsp;plusy</h2>\n                </div>\n            </div>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "displayDate": "20190318111100",
+              "treePath": [
+                "",
+                "262063",
+                "262067"
+              ],
+              "status": "0"
+            },
+            "highlight": {
+              "title_cs_CZ": [
+                "HP - <b>top</b> banner"
+              ]
+            }
+          },
+          {
+            "_index": "liferay-20099",
+            "_type": "LiferayDocumentType",
+            "_id": "com.liferay.journal.model.JournalArticle_PORTLET_262489",
+            "_score": 1.3164139,
+            "_source": {
+              "ddmTemplateKey": "260375",
+              "entryClassPK": "262490",
+              "publishDate_sortable": 1552907460000,
+              "groupId": "20126",
+              "priority_sortable": 0,
+              "publishDate": "20190318111100",
+              "ddm__text__262079__content_cs_CZ_String_sortable": "<div class=\"saps-h100 saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <h2 class=\"saps-h2 saps-color-white\">měníme minusy ojetých vozů na plusy</h2>\n</div>",
+              "classNameId": "0",
+              "createDate_sortable": 1552907497679,
+              "content": "<div class=\"saps-h100 saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <h2 class=\"saps-h2 saps-color-white\">Měníme minusy ojetých vozů na plusy</h2>\n</div>",
+              "ddm__text__262079__content_cs_CZ": "<div class=\"saps-h100 saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <h2 class=\"saps-h2 saps-color-white\">Měníme minusy ojetých vozů na plusy</h2>\n</div>",
+              "head": "false",
+              "uid": "com.liferay.journal.model.JournalArticle_PORTLET_262489",
+              "classPK": "0",
+              "groupRoleId": "20126-20114",
+              "scopeGroupId": "20126",
+              "articleId_String_sortable": "108203",
+              "layoutUuid": "",
+              "modified": "20190318111144",
+              "modified_sortable": 1552907504325,
+              "expirationDate_sortable": 9223372036854776000,
+              "createDate": "20190318111137",
+              "expirationDate": "99950812133000",
+              "latest": "false",
+              "displayDate_sortable": 1552907460000,
+              "visible": "true",
+              "title_cs_CZ": "HP - top banner",
+              "ddmStructureKey": "260371",
+              "entryClassName": "com.liferay.journal.model.JournalArticle",
+              "roleId": [
+                "20106",
+                "20107"
+              ],
+              "articleId": "108203",
+              "defaultLanguageId": "cs_CZ",
+              "userName": "test test",
+              "priority": "0.0",
+              "userId": "20139",
+              "version": "1.0",
+              "folderId": "262067",
+              "classTypeId": "262079",
+              "localized_title": "hp - top banner",
+              "localized_title_cs_CZ": "hp - top banner",
+              "localized_title_cs_CZ_sortable": "hp - top banner",
+              "localized_title_en_US": "hp - top banner",
+              "localized_title_en_US_sortable": "hp - top banner",
+              "stagingGroup": "false",
+              "companyId": "20099",
+              "headListable": "false",
+              "rootEntryClassPK": "262490",
+              "content_cs_CZ": "<div class=\"saps-h100 saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <h2 class=\"saps-h2 saps-color-white\">Měníme minusy ojetých vozů na plusy</h2>\n</div>",
+              "displayDate": "20190318111100",
+              "treePath": [
+                "",
+                "262063",
+                "262067"
+              ],
+              "status": "0"
+            },
+            "highlight": {
+              "title_cs_CZ": [
+                "HP - <b>top</b> banner"
+              ]
+            }
+          },
+          {
+            "_index": "liferay-20099",
+            "_type": "LiferayDocumentType",
+            "_id": "com.liferay.journal.model.JournalArticle_PORTLET_262499",
+            "_score": 1.3164139,
+            "_source": {
+              "ddmTemplateKey": "260375",
+              "entryClassPK": "262490",
+              "publishDate_sortable": 1552907460000,
+              "groupId": "20126",
+              "priority_sortable": 0,
+              "publishDate": "20190318111100",
+              "ddm__text__262079__content_cs_CZ_String_sortable": "<div class=\"saps-hp-banner-wrapper saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <h2 class=\"saps-h2 saps-color-white\">měníme minusy ojetých vozů na plusy</h2>\n</div>",
+              "classNameId": "0",
+              "createDate_sortable": 1552907497679,
+              "content": "<div class=\"saps-hp-banner-wrapper saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <h2 class=\"saps-h2 saps-color-white\">Měníme minusy ojetých vozů na plusy</h2>\n</div>",
+              "ddm__text__262079__content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <h2 class=\"saps-h2 saps-color-white\">Měníme minusy ojetých vozů na plusy</h2>\n</div>",
+              "head": "false",
+              "uid": "com.liferay.journal.model.JournalArticle_PORTLET_262499",
+              "classPK": "0",
+              "groupRoleId": "20126-20114",
+              "scopeGroupId": "20126",
+              "articleId_String_sortable": "108203",
+              "layoutUuid": "",
+              "modified": "20190318113315",
+              "modified_sortable": 1552908795144,
+              "expirationDate_sortable": 9223372036854776000,
+              "createDate": "20190318111137",
+              "expirationDate": "99950812133000",
+              "latest": "false",
+              "displayDate_sortable": 1552907460000,
+              "visible": "true",
+              "title_cs_CZ": "HP - top banner",
+              "ddmStructureKey": "260371",
+              "entryClassName": "com.liferay.journal.model.JournalArticle",
+              "roleId": [
+                "20106",
+                "20107"
+              ],
+              "articleId": "108203",
+              "defaultLanguageId": "cs_CZ",
+              "userName": "test test",
+              "priority": "0.0",
+              "userId": "20139",
+              "version": "1.1",
+              "folderId": "262067",
+              "classTypeId": "262079",
+              "localized_title": "hp - top banner",
+              "localized_title_cs_CZ": "hp - top banner",
+              "localized_title_cs_CZ_sortable": "hp - top banner",
+              "localized_title_en_US": "hp - top banner",
+              "localized_title_en_US_sortable": "hp - top banner",
+              "stagingGroup": "false",
+              "companyId": "20099",
+              "headListable": "false",
+              "rootEntryClassPK": "262490",
+              "content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <h2 class=\"saps-h2 saps-color-white\">Měníme minusy ojetých vozů na plusy</h2>\n</div>",
+              "displayDate": "20190318111100",
+              "treePath": [
+                "",
+                "262063",
+                "262067"
+              ],
+              "status": "0"
+            },
+            "highlight": {
+              "title_cs_CZ": [
+                "HP - <b>top</b> banner"
+              ]
+            }
+          },
+          {
+            "_index": "liferay-20099",
+            "_type": "LiferayDocumentType",
+            "_id": "com.liferay.journal.model.JournalArticle_PORTLET_262505",
+            "_score": 1.3164139,
+            "_source": {
+              "ddmTemplateKey": "260375",
+              "entryClassPK": "262490",
+              "publishDate_sortable": 1552907460000,
+              "groupId": "20126",
+              "priority_sortable": 0,
+              "publishDate": "20190318111100",
+              "ddm__text__262079__content_cs_CZ_String_sortable": "<div class=\"saps-hp-banner-wrapper saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-12 col-md-5\">\n                <div class",
+              "classNameId": "0",
+              "createDate_sortable": 1552907497679,
+              "content": "<div class=\"saps-hp-banner-wrapper saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-12 col-md-5\">\n                <div class=\"d-none d-md-block\" style=\"height: 108px;\"></div>\n                <h2 class=\"saps-h2 saps-color-white\">Měníme minusy ojetých vozů na plusy</h2>\n            </div>\n        </div>\n    </div>\n</div>",
+              "ddm__text__262079__content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-12 col-md-5\">\n                <div class=\"d-none d-md-block\" style=\"height: 108px;\"></div>\n                <h2 class=\"saps-h2 saps-color-white\">Měníme minusy ojetých vozů na plusy</h2>\n            </div>\n        </div>\n    </div>\n</div>",
+              "head": "false",
+              "uid": "com.liferay.journal.model.JournalArticle_PORTLET_262505",
+              "classPK": "0",
+              "groupRoleId": "20126-20114",
+              "scopeGroupId": "20126",
+              "articleId_String_sortable": "108203",
+              "layoutUuid": "",
+              "modified": "20190318115412",
+              "modified_sortable": 1552910052754,
+              "expirationDate_sortable": 9223372036854776000,
+              "createDate": "20190318111137",
+              "expirationDate": "99950812133000",
+              "latest": "false",
+              "displayDate_sortable": 1552907460000,
+              "visible": "true",
+              "title_cs_CZ": "HP - top banner",
+              "ddmStructureKey": "260371",
+              "entryClassName": "com.liferay.journal.model.JournalArticle",
+              "roleId": [
+                "20106",
+                "20107"
+              ],
+              "articleId": "108203",
+              "defaultLanguageId": "cs_CZ",
+              "userName": "test test",
+              "priority": "0.0",
+              "userId": "20139",
+              "version": "1.2",
+              "folderId": "262067",
+              "classTypeId": "262079",
+              "localized_title": "hp - top banner",
+              "localized_title_cs_CZ": "hp - top banner",
+              "localized_title_cs_CZ_sortable": "hp - top banner",
+              "localized_title_en_US": "hp - top banner",
+              "localized_title_en_US_sortable": "hp - top banner",
+              "stagingGroup": "false",
+              "companyId": "20099",
+              "headListable": "false",
+              "rootEntryClassPK": "262490",
+              "content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-12 col-md-5\">\n                <div class=\"d-none d-md-block\" style=\"height: 108px;\"></div>\n                <h2 class=\"saps-h2 saps-color-white\">Měníme minusy ojetých vozů na plusy</h2>\n            </div>\n        </div>\n    </div>\n</div>",
+              "displayDate": "20190318111100",
+              "treePath": [
+                "",
+                "262063",
+                "262067"
+              ],
+              "status": "0"
+            },
+            "highlight": {
+              "title_cs_CZ": [
+                "HP - <b>top</b> banner"
+              ]
+            }
+          },
+          {
+            "_index": "liferay-20099",
+            "_type": "LiferayDocumentType",
+            "_id": "com.liferay.journal.model.JournalArticle_PORTLET_262523",
+            "_score": 1.3164139,
+            "_source": {
+              "ddmTemplateKey": "260375",
+              "entryClassPK": "262490",
+              "publishDate_sortable": 1552907460000,
+              "groupId": "20126",
+              "priority_sortable": 0,
+              "publishDate": "20190318111100",
+              "ddm__text__262079__content_cs_CZ_String_sortable": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div c",
+              "classNameId": "0",
+              "createDate_sortable": 1552907497679,
+              "content": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "ddm__text__262079__content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "head": "false",
+              "uid": "com.liferay.journal.model.JournalArticle_PORTLET_262523",
+              "classPK": "0",
+              "groupRoleId": "20126-20114",
+              "scopeGroupId": "20126",
+              "articleId_String_sortable": "108203",
+              "layoutUuid": "",
+              "modified": "20190318155439",
+              "modified_sortable": 1552924479063,
+              "expirationDate_sortable": 9223372036854776000,
+              "createDate": "20190318111137",
+              "expirationDate": "99950812133000",
+              "latest": "false",
+              "displayDate_sortable": 1552907460000,
+              "visible": "true",
+              "title_cs_CZ": "HP - top banner",
+              "ddmStructureKey": "260371",
+              "entryClassName": "com.liferay.journal.model.JournalArticle",
+              "roleId": [
+                "20106",
+                "20107"
+              ],
+              "articleId": "108203",
+              "defaultLanguageId": "cs_CZ",
+              "userName": "test test",
+              "priority": "0.0",
+              "userId": "20139",
+              "version": "1.5",
+              "folderId": "262067",
+              "classTypeId": "262079",
+              "localized_title": "hp - top banner",
+              "localized_title_cs_CZ": "hp - top banner",
+              "localized_title_cs_CZ_sortable": "hp - top banner",
+              "localized_title_en_US": "hp - top banner",
+              "localized_title_en_US_sortable": "hp - top banner",
+              "stagingGroup": "false",
+              "companyId": "20099",
+              "headListable": "false",
+              "rootEntryClassPK": "262490",
+              "content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-bg-cover\" style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "displayDate": "20190318111100",
+              "treePath": [
+                "",
+                "262063",
+                "262067"
+              ],
+              "status": "0"
+            },
+            "highlight": {
+              "title_cs_CZ": [
+                "HP - <b>top</b> banner"
+              ]
+            }
+          },
+          {
+            "_index": "liferay-20099",
+            "_type": "LiferayDocumentType",
+            "_id": "com.liferay.journal.model.JournalArticle_PORTLET_262535",
+            "_score": 1.3164139,
+            "_source": {
+              "ddmTemplateKey": "260375",
+              "entryClassPK": "262490",
+              "publishDate_sortable": 1552907460000,
+              "groupId": "20126",
+              "priority_sortable": 0,
+              "publishDate": "20190318111100",
+              "ddm__text__262079__content_cs_CZ_String_sortable": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box\"\n    style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100 saps-claim-box--top-banner\">\n        <div clas",
+              "classNameId": "0",
+              "createDate_sortable": 1552907497679,
+              "content": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box\"\n    style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100 saps-claim-box--top-banner\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "ddm__text__262079__content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box\"\n    style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100 saps-claim-box--top-banner\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "head": "false",
+              "uid": "com.liferay.journal.model.JournalArticle_PORTLET_262535",
+              "classPK": "0",
+              "groupRoleId": "20126-20114",
+              "scopeGroupId": "20126",
+              "articleId_String_sortable": "108203",
+              "layoutUuid": "",
+              "modified": "20190318161117",
+              "modified_sortable": 1552925477026,
+              "expirationDate_sortable": 9223372036854776000,
+              "createDate": "20190318111137",
+              "expirationDate": "99950812133000",
+              "latest": "false",
+              "displayDate_sortable": 1552907460000,
+              "visible": "true",
+              "title_cs_CZ": "HP - top banner",
+              "ddmStructureKey": "260371",
+              "entryClassName": "com.liferay.journal.model.JournalArticle",
+              "roleId": [
+                "20106",
+                "20107"
+              ],
+              "articleId": "108203",
+              "defaultLanguageId": "cs_CZ",
+              "userName": "test test",
+              "priority": "0.0",
+              "userId": "20139",
+              "version": "1.7",
+              "folderId": "262067",
+              "classTypeId": "262079",
+              "localized_title": "hp - top banner",
+              "localized_title_cs_CZ": "hp - top banner",
+              "localized_title_cs_CZ_sortable": "hp - top banner",
+              "localized_title_en_US": "hp - top banner",
+              "localized_title_en_US_sortable": "hp - top banner",
+              "stagingGroup": "false",
+              "companyId": "20099",
+              "headListable": "false",
+              "rootEntryClassPK": "262490",
+              "content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box\"\n    style=\"background-image: url(https://via.placeholder.com/960x800/88ddff/c0c0c0);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100 saps-claim-box--top-banner\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "displayDate": "20190318111100",
+              "treePath": [
+                "",
+                "262063",
+                "262067"
+              ],
+              "status": "0"
+            },
+            "highlight": {
+              "title_cs_CZ": [
+                "HP - <b>top</b> banner"
+              ]
+            }
+          },
+          {
+            "_index": "liferay-20099",
+            "_type": "LiferayDocumentType",
+            "_id": "com.liferay.journal.model.JournalArticle_PORTLET_262821",
+            "_score": 1.3164139,
+            "_source": {
+              "ddmTemplateKey": "260375",
+              "entryClassPK": "262490",
+              "publishDate_sortable": 1552907460000,
+              "groupId": "20126",
+              "priority_sortable": 0,
+              "publishDate": "20190318111100",
+              "ddm__text__262079__content_cs_CZ_String_sortable": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/hp_filter.jpg/3f1dac69-6903-a88d-0e8b-7009d1f7df9d);\">\n\n    <div class=\"d-",
+              "classNameId": "0",
+              "createDate_sortable": 1552907497679,
+              "content": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/Hp_filter.jpg/3f1dac69-6903-a88d-0e8b-7009d1f7df9d);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "ddm__text__262079__content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/Hp_filter.jpg/3f1dac69-6903-a88d-0e8b-7009d1f7df9d);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "head": "false",
+              "uid": "com.liferay.journal.model.JournalArticle_PORTLET_262821",
+              "classPK": "0",
+              "groupRoleId": "20126-20114",
+              "scopeGroupId": "20126",
+              "articleId_String_sortable": "108203",
+              "layoutUuid": "",
+              "modified": "20190401165214",
+              "modified_sortable": 1554137534828,
+              "expirationDate_sortable": 9223372036854776000,
+              "createDate": "20190318111137",
+              "expirationDate": "99950812133000",
+              "latest": "false",
+              "displayDate_sortable": 1552907460000,
+              "visible": "true",
+              "title_cs_CZ": "HP - top banner",
+              "ddmStructureKey": "260371",
+              "entryClassName": "com.liferay.journal.model.JournalArticle",
+              "roleId": [
+                "20106",
+                "20107"
+              ],
+              "articleId": "108203",
+              "defaultLanguageId": "cs_CZ",
+              "userName": "test test",
+              "priority": "0.0",
+              "userId": "20139",
+              "version": "2.6",
+              "folderId": "262067",
+              "classTypeId": "262079",
+              "localized_title": "hp - top banner",
+              "localized_title_cs_CZ": "hp - top banner",
+              "localized_title_cs_CZ_sortable": "hp - top banner",
+              "localized_title_en_US": "hp - top banner",
+              "localized_title_en_US_sortable": "hp - top banner",
+              "stagingGroup": "false",
+              "companyId": "20099",
+              "headListable": "false",
+              "rootEntryClassPK": "262490",
+              "content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/Hp_filter.jpg/3f1dac69-6903-a88d-0e8b-7009d1f7df9d);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-ld-block\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block\" style=\"height: 68px;\"></div>\n            <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "displayDate": "20190318111100",
+              "treePath": [
+                "",
+                "262063",
+                "262067"
+              ],
+              "status": "0"
+            },
+            "highlight": {
+              "title_cs_CZ": [
+                "HP - <b>top</b> banner"
+              ]
+            }
+          },
+          {
+            "_index": "liferay-20099",
+            "_type": "LiferayDocumentType",
+            "_id": "com.liferay.journal.model.JournalArticle_PORTLET_262833",
+            "_score": 1.3164139,
+            "_source": {
+              "ddmTemplateKey": "260375",
+              "entryClassPK": "262490",
+              "publishDate_sortable": 1552907460000,
+              "groupId": "20126",
+              "priority_sortable": 0,
+              "publishDate": "20190318111100",
+              "ddm__text__262079__content_cs_CZ_String_sortable": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/hp_filter.jpg/3f1dac69-6903-a88d-0e8b-7009d1f7df9d);\">\n\n    <div class=\"d-",
+              "classNameId": "0",
+              "createDate_sortable": 1552907497679,
+              "content": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/Hp_filter.jpg/3f1dac69-6903-a88d-0e8b-7009d1f7df9d);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-lg-block d-xl-none\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block d-lg-none\" style=\"height: 68px;\"></div>\n            <div class=\"row\">\n                <div class=\"col-12 col-md-6 col-lg-12\">\n                    <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n                </div>\n            </div>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "ddm__text__262079__content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/Hp_filter.jpg/3f1dac69-6903-a88d-0e8b-7009d1f7df9d);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-lg-block d-xl-none\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block d-lg-none\" style=\"height: 68px;\"></div>\n            <div class=\"row\">\n                <div class=\"col-12 col-md-6 col-lg-12\">\n                    <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n                </div>\n            </div>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "head": "false",
+              "uid": "com.liferay.journal.model.JournalArticle_PORTLET_262833",
+              "classPK": "0",
+              "groupRoleId": "20126-20114",
+              "scopeGroupId": "20126",
+              "articleId_String_sortable": "108203",
+              "layoutUuid": "",
+              "modified": "20190401165855",
+              "modified_sortable": 1554137935930,
+              "expirationDate_sortable": 9223372036854776000,
+              "createDate": "20190318111137",
+              "expirationDate": "99950812133000",
+              "latest": "false",
+              "displayDate_sortable": 1552907460000,
+              "visible": "true",
+              "title_cs_CZ": "HP - top banner",
+              "ddmStructureKey": "260371",
+              "entryClassName": "com.liferay.journal.model.JournalArticle",
+              "roleId": [
+                "20106",
+                "20107"
+              ],
+              "articleId": "108203",
+              "defaultLanguageId": "cs_CZ",
+              "userName": "test test",
+              "priority": "0.0",
+              "userId": "20139",
+              "version": "2.8",
+              "folderId": "262067",
+              "classTypeId": "262079",
+              "localized_title": "hp - top banner",
+              "localized_title_cs_CZ": "hp - top banner",
+              "localized_title_cs_CZ_sortable": "hp - top banner",
+              "localized_title_en_US": "hp - top banner",
+              "localized_title_en_US_sortable": "hp - top banner",
+              "stagingGroup": "false",
+              "companyId": "20099",
+              "headListable": "false",
+              "rootEntryClassPK": "262490",
+              "content_cs_CZ": "<div class=\"saps-hp-banner-wrapper saps-h100 saps-claim-box saps-claim-box--top-banner\"\n    style=\"background-image: url(http://dev.skodaplus.cleverlance.com/documents/20126/260239/Hp_filter.jpg/3f1dac69-6903-a88d-0e8b-7009d1f7df9d);\">\n\n    <div class=\"d-flex d-md-block align-items-end saps-h100\">\n        <div class=\"container\">\n            <div class=\"d-none d-xl-block\" style=\"height: 108px;\"></div>\n            <div class=\"d-none d-lg-block d-xl-none\" style=\"height: 88px;\"></div>\n            <div class=\"d-none d-md-block d-lg-none\" style=\"height: 68px;\"></div>\n            <div class=\"row\">\n                <div class=\"col-12 col-md-6 col-lg-12\">\n                    <h2 class=\"saps-h2 saps-color-white saps-mb-10 saps-mb-70-md text-center text-md-left\">Měníme minusy ojetých vozů na plusy</h2>\n                </div>\n            </div>\n            <a href=\"#hpContent\" class=\"js-scroll-to text-center d-block d-md-none saps-pt-20 saps-pb-20\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 341 191\" height=\"17\" width=\"30\">\n                    <path d=\"M337 24.5L170.5 191 4 24.5Q0 20 0 14.25T4 4q4-4 10-4t10 4l146.5 146.5L317 4q4-4 10-4t10 4q4 4 4 9.75t-4 10.75z\" fill=\"#ef7d00\"/>\n                </svg>\n            </a>\n        </div>\n    </div>\n</div>",
+              "displayDate": "20190318111100",
+              "treePath": [
+                "",
+                "262063",
+                "262067"
+              ],
+              "status": "0"
+            },
+            "highlight": {
+              "title_cs_CZ": [
+                "HP - <b>top</b> banner"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+POST  http://serverService:portService/serviceUrl
+{
+  "general": {
+    "gui": "4-2-1",
+    "searchId": "autocompleteCarsDealersPages",
+    "searchStrings": ["Sko"],
+    "page":1,
+    "size":3
+  }
+}
+
+Přeloží service na 3 samostatné requesty:
+POST http://serverES:portES/cars_index/cars/_search
+{
+  "size": "3",
+  "from": "0",
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "bool": {
+            "should": [
+              {
+                "match_phrase_prefix": {
+                  "car_name.simple": {
+                    "query": "Sko",
+                    "boost": 100
+                  }
+                }
+              },
+              {
+                "fuzzy": {
+                  "car_name.simple": {
+                    "value": "Sko",
+                    "fuzziness": 1
+                  }
+                }
+              },
+              {
+                "match_phrase_prefix": {
+                  "car_model.simple": {
+                    "query": "Sko",
+                    "boost":20
+                  }
+                }
+              },
+              {
+                "fuzzy": {
+                  "car_model.simple": {
+                    "value": "Sko",
+                    "fuzziness": 1
+                  }
+                }
+              },
+              {
+                "match_phrase_prefix": {
+                  "car_body_type.simple": {
+                    "query": "Sko"
+                  }
+                }
+              },
+              {
+                "fuzzy": {
+                  "car_body_type.simple": {
+                    "value": "Sko",
+                    "fuzziness": 1
+                  }
+                }
+              },
+              {
+                "match_phrase_prefix": {
+                  "car_fuel.simple": {
+                    "query": "Sko"
+                  }
+                }
+              },
+              {
+                "fuzzy": {
+                  "car_fuel.simple": {
+                    "value": "Sko",
+                    "fuzziness": 1
+                  }
+                }
+              },
+              {
+                "match_phrase_prefix": {
+                  "car_transmission.simple": {
+                    "query": "Sko"
+                  }
+                }
+              },
+              {
+                "fuzzy": {
+                  "car_transmission.simple": {
+                    "value": "Sko",
+                    "fuzziness": 1
+                  }
+                }
+              },
+              {
+                "match_phrase_prefix": {
+                  "car_engine_power.simple": {
+                    "query": "Sko"
+                  }
+                }
+              },
+              {
+                "fuzzy": {
+                  "car_engine_power.simple": {
+                    "value": "Sko",
+                    "fuzziness": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "highlight": {
+    "pre_tags": [
+      "<b>"
+    ],
+    "post_tags": [
+      "</b>"
+    ],
+    "fields": {
+      "*": {
+        "number_of_fragments": 10,
+        "highlight_query": {
+          "bool": {
+            "must": [
+              {
+                "bool": {
+                  "should": [
+                    {
+                      "query_string": {
+                        "query": "Sko",
+                        "fields": [
+                          "car_name.ngram",
+                          "car_model.ngram",
+                          "car_body_type.ngram",
+                          "car_fuel.ngram",
+                          "car_transmission.ngram",
+                          "car_engine_power.ngram"
+                        ]
+                      }
+                    },
+                    {
+                      "fuzzy": {
+                        "car_name.simple": {
+                          "value": "Sko",
+                          "fuzziness": 1
+                        }
+                      }
+                    },
+                    {
+                      "fuzzy": {
+                        "car_model.simple": {
+                          "value": "Sko",
+                          "fuzziness": 1
+                        }
+                      }
+                    },
+                    {
+                      "fuzzy": {
+                        "car_body_type.simple": {
+                          "value": "Sko",
+                          "fuzziness": 1
+                        }
+                      }
+                    },
+                    {
+                      "fuzzy": {
+                        "car_fuel.simple": {
+                          "value": "Sko",
+                          "fuzziness": 1
+                        }
+                      }
+                    },
+                    {
+                      "fuzzy": {
+                        "car_transmission.simple": {
+                          "value": "Sko",
+                          "fuzziness": 1
+                        }
+                      }
+                    },
+                    {
+                      "fuzzy": {
+                        "car_engine_power.simple": {
+                          "value": "Sko",
+                          "fuzziness": 1
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
+
+POST http://serverES:portES/dealers_index/dealers/_search
+{
+  "size": "3",
+  "from": "0",
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "bool": {
+            "should": [
+              {
+                "match_phrase_prefix": {
+                  "dealer_name.raw": {
+                    "query": "Sko",
+                    "boost": 100
+                  }
+                }
+              },
+              {
+                "fuzzy": {
+                  "dealer_name.raw": {
+                    "value": "Sko",
+                    "fuzziness": 1
+                  }
+                }
+              },
+              {
+                "match_phrase_prefix": {
+                  "dealer_city.raw": {
+                    "query": "Sko",
+                    "boost":20
+                  }
+                }
+              },
+              {
+                "fuzzy": {
+                  "dealer_city.raw": {
+                    "value": "Sko",
+                    "fuzziness": 1
+                  }
+                }
+              },
+              {
+                "match_phrase_prefix": {
+                  "dealer_street.raw": {
+                    "query": "Sko"
+                  }
+                }
+              },
+              {
+                "fuzzy": {
+                  "dealer_street.raw": {
+                    "value": "Sko",
+                    "fuzziness": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "highlight": {
+    "pre_tags": [
+      "<b>"
+    ],
+    "post_tags": [
+      "</b>"
+    ],
+    "fields": {
+      "*": {
+        "number_of_fragments": 10,
+        "highlight_query": {
+          "bool": {
+            "must": [
+              {
+                "bool": {
+                  "should": [
+                    {
+                      "query_string": {
+                        "query": "Sko",
+                        "fields": [
+                          "dealer_name.ngram",
+                          "dealer_city.ngram",
+                          "dealer_street.ngram"
+                        ]
+                      }
+                    },
+                    {
+                      "fuzzy": {
+                        "dealer_name.raw": {
+                          "value": "Sko",
+                          "fuzziness": 1
+                        }
+                      }
+                    },
+                    {
+                      "fuzzy": {
+                        "dealer_city.raw": {
+                          "value": "Sko",
+                          "fuzziness": 1
+                        }
+                      }
+                    },
+                    {
+                      "fuzzy": {
+                        "dealer_street.raw": {
+                          "value": "Sko",
+                          "fuzziness": 1
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
+
+POST http://serverES:portES/liferay-20099/LiferayDocumentType/_search
+(Pozor "Sko" nebylo v datech, proto je zde dotaz na "t")
+{
+  "size": "1000",
+  "from": "0",
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "bool": {
+            "should": [
+              {
+                "match_phrase_prefix": {
+                  "title_cs_CZ": {
+                    "query": "t"
+                  }
+                }
+              },
+              {
+                "fuzzy": {
+                  "title_cs_CZ": {
+                    "value": "t",
+                    "fuzziness": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "highlight": {
+    "pre_tags": [
+      "<b>"
+    ],
+    "post_tags": [
+      "</b>"
+    ],
+    "fields": {
+      "*": {
+        "number_of_fragments": 10,
+        "highlight_query": {
+          "bool": {
+            "must": [
+              {
+                "bool": {
+                  "should": [
+                    {
+                      "match_phrase_prefix": {
+                        "title_cs_CZ": {
+                          "query": "t"
+                        }
+                      }
+                    },
+                    {
+                      "fuzzy": {
+                        "title_cs_CZ": {
+                          "value": "t",
+                          "fuzziness": 1
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
