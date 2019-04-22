@@ -1,0 +1,66 @@
+{
+  "dealers": {
+    "dynamic": "strict",
+    "properties": {
+      "auditDate": {
+        "type": "date",
+        "format": "dd.MM.yyyy HH:mm:ss"
+      },
+      "dealer_name": {
+        "type": "text",
+        "fields": {
+          "raw": {
+            "type": "keyword",
+            "normalizer": "keyword_normalizer"
+          },
+          "ngram": {
+            "type": "text",
+            "analyzer": "index_analyzer_ngram",
+            "search_analyzer": "search_analyzer_term",
+            "term_vector": "with_positions_offsets"
+          },
+          "simple": {
+            "type": "text"
+          }
+        }
+      },
+      "dealer_city": {
+        "type": "text",
+        "fields": {
+          "raw": {
+            "type": "keyword",
+            "normalizer": "keyword_normalizer"
+          },
+          "ngram": {
+            "type": "text",
+            "analyzer": "index_analyzer_ngram",
+            "search_analyzer": "search_analyzer_term",
+            "term_vector": "with_positions_offsets"
+          },
+          "simple": {
+            "type": "text"
+          }
+        }
+      },
+      "dealer_street": {
+        "type": "text",
+        "fields": {
+          "raw": {
+            "type": "keyword",
+            "normalizer": "keyword_normalizer"
+          },
+          "ngram": {
+            "type": "text",
+            "analyzer": "index_analyzer_ngram",
+            "search_analyzer": "search_analyzer_term",
+            "term_vector": "with_positions_offsets"
+          },
+          "simple": {
+            "type": "text"
+          }
+        }
+      }
+    }
+  }
+}
+

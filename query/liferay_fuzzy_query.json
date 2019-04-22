@@ -1,0 +1,73 @@
+{
+  "size": "1000",
+  "from": "0",
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "bool": {
+            "should": [
+              {
+                "match_phrase_prefix": {
+                  "title_cs_CZ": {
+                    "query": "t"
+                  }
+                }
+              },
+              {
+                "fuzzy": {
+                  "title_cs_CZ": {
+                    "value": "t",
+                    "fuzziness": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "highlight": {
+    "pre_tags": [
+      "<b>"
+    ],
+    "post_tags": [
+      "</b>"
+    ],
+    "fields": {
+      "*": {
+        "number_of_fragments": 10,
+        "highlight_query": {
+          "bool": {
+            "must": [
+              {
+                "bool": {
+                  "should": [
+                    {
+                      "match_phrase_prefix": {
+                        "title_cs_CZ": {
+                          "query": "t"
+                        }
+                      }
+                    },
+                    {
+                      "fuzzy": {
+                        "title_cs_CZ": {
+                          "value": "t",
+                          "fuzziness": 1
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,4 @@
+DELETE /${INDEX_NAME}_index
+PUT /${INDEX_NAME}_index ./${INDEX_NAME}_index.json
+PUT /${INDEX_NAME}_index/${INDEX_NAME}/_mapping?update_all_types ./${INDEX_NAME}_mapping.json
+POST /_bulk ./${INDEX_NAME}_data.json

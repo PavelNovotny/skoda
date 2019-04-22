@@ -1,0 +1,1002 @@
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"1"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"2"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"3"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"4"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"5"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"6"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"7"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"8"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"9"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"10"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"11"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"12"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"13"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"14"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"15"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"16"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"17"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"18"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"19"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"20"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"21"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"22"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"23"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"24"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"25"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"26"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"27"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"28"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"29"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"30"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"31"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"32"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"33"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"34"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"35"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"36"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"37"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"38"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"39"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"40"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"41"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"42"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"43"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"44"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"45"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"46"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"47"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"48"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"49"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"50"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"51"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"52"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"53"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"54"}}
+{"dealer_name":"Dealer 1","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"55"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"56"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"57"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"58"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"59"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"60"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"61"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"62"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"63"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"64"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"65"}}
+{"dealer_name":"Dealer 1","dealer_city":"Praha","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"66"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"67"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"68"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"69"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"70"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"71"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"72"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"73"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"74"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"75"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"76"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"77"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"78"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"79"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"80"}}
+{"dealer_name":"Dealer 1","dealer_city":"Praha","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"81"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"82"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"83"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"84"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"85"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"86"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"87"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"88"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"89"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"90"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"91"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"92"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"93"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"94"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"95"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"96"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"97"}}
+{"dealer_name":"Dealer 1","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"98"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"99"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"100"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"101"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"102"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"103"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"104"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"105"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"106"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"107"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"108"}}
+{"dealer_name":"Dealer 1","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"109"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"110"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"111"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"112"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"113"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"114"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"115"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"116"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"117"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"118"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"119"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"120"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"121"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"122"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"123"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"124"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"125"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"126"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"127"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"128"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"129"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"130"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"131"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"132"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"133"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"134"}}
+{"dealer_name":"Dealer 1","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"135"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"136"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"137"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"138"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"139"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"140"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"141"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"142"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"143"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"144"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"145"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"146"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"147"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"148"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"149"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"150"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"151"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"152"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"153"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"154"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"155"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"156"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"157"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"158"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"159"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"160"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"161"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"162"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"163"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"164"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"165"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"166"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"167"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"168"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"169"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"170"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"171"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"172"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"173"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"174"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"175"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"176"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"177"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"178"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"179"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"180"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"181"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"182"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"183"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"184"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"185"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"186"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"187"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"188"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"189"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"190"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"191"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"192"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"193"}}
+{"dealer_name":"Dealer 1","dealer_city":"Praha","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"194"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"195"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"196"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"197"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"198"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"199"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"200"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"201"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"202"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"203"}}
+{"dealer_name":"Dealer 1","dealer_city":"Praha","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"204"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"205"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"206"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"207"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"208"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"209"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"210"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"211"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"212"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"213"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"214"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"215"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"216"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"217"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"218"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"219"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"220"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"221"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"222"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"223"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"224"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"225"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"226"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"227"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"228"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"229"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"230"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"231"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"232"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"233"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"234"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"235"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"236"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"237"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"238"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"239"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"240"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"241"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"242"}}
+{"dealer_name":"Dealer 1","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"243"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"244"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"245"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"246"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"247"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"248"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"249"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"250"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"251"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"252"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"253"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"254"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"255"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"256"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"257"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"258"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"259"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"260"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"261"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"262"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"263"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"264"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"265"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"266"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"267"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"268"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"269"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"270"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"271"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"272"}}
+{"dealer_name":"Dealer 1","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"273"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"274"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"275"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"276"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"277"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"278"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"279"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"280"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"281"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"282"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"283"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"284"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"285"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"286"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"287"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"288"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"289"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"290"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"291"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"292"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"293"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"294"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"295"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"296"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"297"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"298"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"299"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"300"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"301"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"302"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"303"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"304"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"305"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"306"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"307"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"308"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"309"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"310"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"311"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"312"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"313"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"314"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"315"}}
+{"dealer_name":"Dealer 1","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"316"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"317"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"318"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"319"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"320"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"321"}}
+{"dealer_name":"Dealer 1","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"322"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"323"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"324"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"325"}}
+{"dealer_name":"Dealer 1","dealer_city":"Praha","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"326"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"327"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"328"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"329"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"330"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"331"}}
+{"dealer_name":"Dealer 1","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"332"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"333"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"334"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"335"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"336"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"337"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"338"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"339"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"340"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"341"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"342"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"343"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"344"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"345"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"346"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"347"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"348"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"349"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"350"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"351"}}
+{"dealer_name":"Dealer 1","dealer_city":"Praha","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"352"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"353"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"354"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"355"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"356"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"357"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"358"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"359"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"360"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"361"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"362"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"363"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"364"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"365"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"366"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"367"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"368"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"369"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"370"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"371"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"372"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"373"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"374"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"375"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"376"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"377"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"378"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"379"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"380"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"381"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"382"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"383"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"384"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"385"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"386"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"387"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"388"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"389"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"390"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"391"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"392"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"393"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"394"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"395"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"396"}}
+{"dealer_name":"Dealer 1","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"397"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"398"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"399"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"400"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"401"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"402"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"403"}}
+{"dealer_name":"Dealer 1","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"404"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"405"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"406"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"407"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"408"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"409"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"410"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"411"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"412"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"413"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"414"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"415"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"416"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"417"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"418"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"419"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"420"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"421"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"422"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"423"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"424"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"425"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"426"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"427"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"428"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"429"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"430"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"431"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"432"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"433"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"434"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"435"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"436"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"437"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"438"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"439"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"440"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"441"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"442"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"443"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"444"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"445"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"446"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"447"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"448"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"449"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"450"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"451"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"452"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"453"}}
+{"dealer_name":"Dealer 1","dealer_city":"Praha","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"454"}}
+{"dealer_name":"Dealer 1","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"455"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"456"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"457"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"458"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"459"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"460"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"461"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"462"}}
+{"dealer_name":"Škoda 1","dealer_city":"Ostrava","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"463"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"464"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"465"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"466"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"467"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"468"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"469"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"470"}}
+{"dealer_name":"Dealer 1","dealer_city":"Praha","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"471"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"472"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"473"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"474"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"475"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Havlíčkův Brod","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"476"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"477"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"478"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"479"}}
+{"dealer_name":"Dealer 1","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"480"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"481"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"482"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"483"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"484"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"485"}}
+{"dealer_name":"Dealer 1","dealer_city":"Praha","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"486"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"487"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"488"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Ostrava","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"489"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"490"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"491"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Brno","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"492"}}
+{"dealer_name":"Dealer 1","dealer_city":"Brno","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"493"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Brno","dealer_street":""}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"494"}}
+{"dealer_name":"Škoda 1","dealer_city":"Brno","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"495"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Praha","dealer_street":"Ulice dlouhá jak týden před výplatou"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"496"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"497"}}
+{"dealer_name":"Žluťoučký kůň úpěl dábelské ódy","dealer_city":"Havlíčkův Brod","dealer_street":"Mastná"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"498"}}
+{"dealer_name":"Velmi dlouhý název dealera foo bar foo bar foo bar foo bar foo bar foo bar foo bar","dealer_city":"Ostrava","dealer_street":"Vlhká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"499"}}
+{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Úzká"}
+{"index":{"_index":"dealers_index","_type":"dealers","_id":"500"}}
+{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":""}
+
+

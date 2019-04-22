@@ -1,0 +1,61 @@
+{
+  "settings": {
+    "index": {
+      "number_of_shards": 5,
+      "analysis": {
+        "normalizer": {
+          "keyword_normalizer": {
+            "type": "custom",
+            "filter": [
+              "lowercase"
+            ]
+          }
+        },
+        "tokenizer": {
+          "ngram_tokenizer": {
+            "type": "ngram",
+            "min_gram": "1",
+            "max_gram": "30",
+            "token_chars": []
+          }
+        },
+        "analyzer": {
+          "default": {
+            "type": "custom",
+            "tokenizer": "standard",
+            "filter": [
+              "lowercase",
+              "remove_duplicities"
+            ]
+          },
+          "index_analyzer_ngram": {
+            "type": "custom",
+            "tokenizer": "ngram_tokenizer",
+            "filter": [
+              "lowercase"
+            ]
+          },
+          "search_analyzer_term": {
+            "type": "custom",
+            "tokenizer": "keyword",
+            "filter": [
+              "lowercase",
+              "truncate_filter"
+            ]
+          }
+        },
+        "filter": {
+          "remove_duplicities": {
+            "type": "unique",
+            "only_on_same_position": false
+          },
+          "truncate_filter": {
+            "type": "truncate",
+            "length": 20
+          }
+        }
+      }
+    }
+  }
+}
+
