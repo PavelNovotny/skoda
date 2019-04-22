@@ -9,92 +9,92 @@
             "should": [
               {
                 "match_phrase_prefix": {
-                  "car_name.raw": {
-                    "query": "KI",
+                  "car_name.simple": {
+                    "query": "ni",
                     "boost": 100
                   }
                 }
               },
               {
                 "fuzzy": {
-                  "car_name.raw": {
-                    "value": "KI",
+                  "car_name.simple": {
+                    "value": "ni",
                     "fuzziness": 1
                   }
                 }
               },
               {
                 "match_phrase_prefix": {
-                  "car_model.raw": {
-                    "query": "KI",
+                  "car_model.simple": {
+                    "query": "ni",
                     "boost":20
                   }
                 }
               },
               {
                 "fuzzy": {
-                  "car_model.raw": {
-                    "value": "KI",
+                  "car_model.simple": {
+                    "value": "ni",
                     "fuzziness": 1
                   }
                 }
               },
               {
                 "match_phrase_prefix": {
-                  "car_body_type.raw": {
-                    "query": "KI"
+                  "car_body_type.simple": {
+                    "query": "ni"
                   }
                 }
               },
               {
                 "fuzzy": {
-                  "car_body_type.raw": {
-                    "value": "KI",
+                  "car_body_type.simple": {
+                    "value": "ni",
                     "fuzziness": 1
                   }
                 }
               },
               {
                 "match_phrase_prefix": {
-                  "car_fuel.raw": {
-                    "query": "KI"
+                  "car_fuel.simple": {
+                    "query": "ni"
                   }
                 }
               },
               {
                 "fuzzy": {
-                  "car_fuel.raw": {
-                    "value": "KI",
+                  "car_fuel.simple": {
+                    "value": "ni",
                     "fuzziness": 1
                   }
                 }
               },
               {
                 "match_phrase_prefix": {
-                  "car_transmission.raw": {
-                    "query": "KI"
+                  "car_transmission.simple": {
+                    "query": "ni"
                   }
                 }
               },
               {
                 "fuzzy": {
-                  "car_transmission.raw": {
-                    "value": "KI",
+                  "car_transmission.simple": {
+                    "value": "ni",
                     "fuzziness": 1
                   }
                 }
               },
               {
                 "match_phrase_prefix": {
-                  "car_engine_power.raw": {
-                    "query": "KI"
+                  "car_engine_power.simple": {
+                    "query": "ni"
                   }
                 }
               },
               {
                 "fuzzy": {
-                  "car_engine_power.raw": {
-                    "value": "KI",
+                  "car_engine_power.simple": {
+                    "value": "ni",
                     "fuzziness": 1
                   }
                 }
@@ -123,7 +123,7 @@
                   "should": [
                     {
                       "query_string": {
-                        "query": "KI",
+                        "query": "ni",
                         "fields": [
                           "car_name.ngram",
                           "car_model.ngram",
@@ -136,48 +136,48 @@
                     },
                     {
                       "fuzzy": {
-                        "car_name.raw": {
-                          "value": "KI",
+                        "car_name.simple": {
+                          "value": "ni",
                           "fuzziness": 1
                         }
                       }
                     },
                     {
                       "fuzzy": {
-                        "car_model.raw": {
-                          "value": "KI",
+                        "car_model.simple": {
+                          "value": "ni",
                           "fuzziness": 1
                         }
                       }
                     },
                     {
                       "fuzzy": {
-                        "car_body_type.raw": {
-                          "value": "KI",
+                        "car_body_type.simple": {
+                          "value": "ni",
                           "fuzziness": 1
                         }
                       }
                     },
                     {
                       "fuzzy": {
-                        "car_fuel.raw": {
-                          "value": "KI",
+                        "car_fuel.simple": {
+                          "value": "ni",
                           "fuzziness": 1
                         }
                       }
                     },
                     {
                       "fuzzy": {
-                        "car_transmission.raw": {
-                          "value": "KI",
+                        "car_transmission.simple": {
+                          "value": "ni",
                           "fuzziness": 1
                         }
                       }
                     },
                     {
                       "fuzzy": {
-                        "car_engine_power.raw": {
-                          "value": "KI",
+                        "car_engine_power.simple": {
+                          "value": "ni",
                           "fuzziness": 1
                         }
                       }
@@ -192,3 +192,4 @@
     }
   }
 }
+

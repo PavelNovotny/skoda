@@ -499,4 +499,3 @@
 {"_index":"dealers_index","_type":"dealers","_id":"499","_score":1,"_source":{"dealer_name":"Škoda 1","dealer_city":"Praha","dealer_street":"Úzká"}}
 {"_index":"dealers_index","_type":"dealers","_id":"500","_score":1,"_source":{"dealer_name":"Škoda 1","dealer_city":"Havlíčkův Brod","dealer_street":""}}
 
-

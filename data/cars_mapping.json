@@ -3,7 +3,6 @@
     "mappings": {
       "cars": {
         "dynamic": "strict",
-        "date_detection": false,
         "properties": {
           "auditDate": {
             "type": "date",
@@ -22,6 +21,9 @@
                 "analyzer": "index_analyzer_ngram",
                 "search_analyzer": "search_analyzer_term",
                 "term_vector": "with_positions_offsets"
+              },
+              "simple": {
+                "type": "text"
               }
             }
           },
@@ -38,6 +40,9 @@
                 "analyzer": "index_analyzer_ngram",
                 "search_analyzer": "search_analyzer_term",
                 "term_vector": "with_positions_offsets"
+              },
+              "simple": {
+                "type": "text"
               }
             }
           },
@@ -53,6 +58,9 @@
                 "analyzer": "index_analyzer_ngram",
                 "search_analyzer": "search_analyzer_term",
                 "term_vector": "with_positions_offsets"
+              },
+              "simple": {
+                "type": "text"
               }
             }
           },
@@ -68,6 +76,9 @@
                 "analyzer": "index_analyzer_ngram",
                 "search_analyzer": "search_analyzer_term",
                 "term_vector": "with_positions_offsets"
+              },
+              "simple": {
+                "type": "text"
               }
             }
           },
@@ -83,6 +94,9 @@
                 "analyzer": "index_analyzer_ngram",
                 "search_analyzer": "search_analyzer_term",
                 "term_vector": "with_positions_offsets"
+              },
+              "simple": {
+                "type": "text"
               }
             }
           },
@@ -98,6 +112,9 @@
                 "analyzer": "index_analyzer_ngram",
                 "search_analyzer": "search_analyzer_term",
                 "term_vector": "with_positions_offsets"
+              },
+              "simple": {
+                "type": "text"
               }
             }
           },
@@ -113,6 +130,9 @@
                 "analyzer": "index_analyzer_ngram",
                 "search_analyzer": "search_analyzer_term",
                 "term_vector": "with_positions_offsets"
+              },
+              "simple": {
+                "type": "text"
               }
             }
           }
